@@ -1,0 +1,2 @@
+ServerGuard -u
+pause

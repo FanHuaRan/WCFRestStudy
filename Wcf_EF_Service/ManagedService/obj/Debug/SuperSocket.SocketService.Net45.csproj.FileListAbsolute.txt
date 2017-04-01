@@ -1,0 +1,3 @@
+F:\Framework WorkShop\其他项目\监测数据服务器\SuperSocket 1.5 beta 4\SocketService\bin\Debug\SuperSocket.SocketService.exe.config
+F:\Framework WorkShop\其他项目\监测数据服务器\SuperSocket 1.5 beta 4\SocketService\obj\Debug\SuperSocket.SocketService.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\SuperSocket 1.5 beta 4\SocketService\obj\Debug\SuperSocket.SocketService.exe

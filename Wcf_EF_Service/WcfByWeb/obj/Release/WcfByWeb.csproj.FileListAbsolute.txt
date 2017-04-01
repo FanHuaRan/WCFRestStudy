@@ -1,0 +1,14 @@
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\data\test.db
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\Demo.Web.dll.config
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\Demo.Web.dll
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\Demo.Web.pdb
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\BLL.dll
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\DAL.dll
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\EntityFramework.dll
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\BLL.pdb
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\DAL.pdb
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\EntityFramework.xml
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\zh-Hans\EntityFramework.resources.dll
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\obj\Release\WcfByWeb.csprojResolveAssemblyReference.cache
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\obj\Release\Demo.Web.dll
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\obj\Release\Demo.Web.pdb

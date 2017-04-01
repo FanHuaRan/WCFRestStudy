@@ -1,0 +1,9 @@
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\bin\Debug\WinformClient.exe.config
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\bin\Debug\WinformClient.exe
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\bin\Debug\WinformClient.pdb
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.csprojResolveAssemblyReference.cache
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.Form1.resources
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.Properties.Resources.resources
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.csproj.GenerateResource.Cache
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.exe
+F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.pdb

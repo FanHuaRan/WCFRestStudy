@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4b2ad31d-2e29-43da-b68f-b970e159002a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/WcfService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="572f5156-d5a7-423a-a176-2cf4714af305" SourceId="1" SourceUrl="http://localhost:8080/WcfService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="b8d615ce-3a41-43e1-bbaa-f6d7a75a6eda" SourceId="1" SourceUrl="http://localhost:8080/WcfService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="8adaa91f-8be6-4688-a7d1-c2ec9c7dbf6e" SourceId="1" SourceUrl="http://localhost:8080/WcfService/mex" />
+    <MetadataFile FileName="DAL.EF.xsd" MetadataType="Schema" ID="a951d537-9fcc-4bc2-bae8-6b87c733753d" SourceId="1" SourceUrl="http://localhost:8080/WcfService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

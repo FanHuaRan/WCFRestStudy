@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\demo</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BLL.dll">
+      <publishTime>01/26/2015 20:58:57</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>01/26/2015 20:58:56</publishTime>
+    </File>
+    <File Include="bin/data/test.db">
+      <publishTime>08/20/2014 11:12:57</publishTime>
+    </File>
+    <File Include="bin/Demo.Web.dll">
+      <publishTime>01/26/2015 20:58:57</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/20/2014 17:11:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>08/20/2014 17:11:37</publishTime>
+    </File>
+    <File Include="clientaccesspolicy.xml">
+      <publishTime>08/20/2014 19:17:43</publishTime>
+    </File>
+    <File Include="ClientBin/Demo.xap">
+      <publishTime>12/11/2014 00:35:09</publishTime>
+    </File>
+    <File Include="crossdomain.xml">
+      <publishTime>08/20/2014 19:17:43</publishTime>
+    </File>
+    <File Include="data/test.db">
+      <publishTime>08/20/2014 11:12:57</publishTime>
+    </File>
+    <File Include="DemoTestPage.aspx">
+      <publishTime>08/20/2014 19:25:05</publishTime>
+    </File>
+    <File Include="DemoTestPage.html">
+      <publishTime>08/20/2014 19:25:03</publishTime>
+    </File>
+    <File Include="Silverlight.js">
+      <publishTime>08/20/2014 16:56:20</publishTime>
+    </File>
+    <File Include="SLClientTestPage.aspx">
+      <publishTime>12/07/2014 20:54:42</publishTime>
+    </File>
+    <File Include="SLClientTestPage.html">
+      <publishTime>12/07/2014 20:54:40</publishTime>
+    </File>
+    <File Include="WcfService.svc">
+      <publishTime>12/07/2014 21:00:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/26/2015 21:00:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

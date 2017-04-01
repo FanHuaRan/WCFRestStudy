@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <customBinding>
+                <binding name="CustomBinding_WcfService">
+                    <binaryMessageEncoding />
+                    <httpTransport maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />
+                </binding>
+            </customBinding>
+        </bindings>
+        <client>
+            <endpoint address="../WcfService.svc" binding="customBinding"
+                bindingConfiguration="CustomBinding_WcfService" contract="WcfService.WcfService"
+                name="CustomBinding_WcfService" />
+        </client>
+    </system.serviceModel>
+</configuration>

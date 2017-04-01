@@ -1,0 +1,107 @@
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\bin\Release\SocketServer.exe
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\bin\Release\SocketServer.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\bin\Release\SuperSocket.Common.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\bin\Release\SuperSocket.SocketBase.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\bin\Release\SuperSocket.SocketEngine.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\bin\Release\log4net.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\obj\Release\SocketServer.csprojResolveAssemblyReference.cache
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\obj\Release\SocketServer.Form1.resources
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\obj\Release\SocketServer.Properties.Resources.resources
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\obj\Release\SocketServer.csproj.GenerateResource.Cache
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\obj\Release\SocketServer.exe
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\obj\Release\SocketServer.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\SocketServer\bin\Release\SocketServer.exe.config
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\Config\log4net.config
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\InstallService.bat
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\RunServer.bat
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\UninstallService.bat
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\SocketServer.exe.config
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\SocketServer.exe
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\SocketServer.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.Common.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.Facility.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.SocketBase.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.SocketEngine.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\bin\Release\log4net.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.csprojResolveAssemblyReference.cache
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.Services.Properties.Resources.resources
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.csproj.GenerateResource.Cache
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.exe
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\SocketServer.exe.config
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.exe
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\InstallService.bat
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\RunServer.bat
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\UninstallService.bat
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\Config\log4net.config
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\SocketServer.exe
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\SocketServer.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\Authentication.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\FireLocationLib.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\jsm.SqlHelper.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\log4net.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.Common.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.Facility.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.SocketBase.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\SuperSocket.SocketEngine.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Data.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Controls.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Data.Rasters.GdalExtension.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Serialization.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Topology.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Projections.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Symbology.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Data.Forms.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Extensions.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Symbology.Forms.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Modeling.Forms.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\DotSpatial.Projections.Forms.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\gdal_csharp.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\ogr_csharp.dll
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\jsm.SqlHelper.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\Authentication.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\bin\Release\FireLocationLib.pdb
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.csprojResolveAssemblyReference.cache
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.Services.Properties.Resources.resources
+F:\Framework WorkShop\其他项目\监测数据服务器\FIS数据服务器\FIS数据服务器\SocketServer\obj\Release\SocketServer.csproj.GenerateResource.Cache
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\log4net.config
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\ProfileTemplate.xml
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\InstallService.bat
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\RunServer.bat
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\UninstallService.bat
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\App.config
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\key.pub
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\Profile.dat
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\SocketServer.exe.config
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\SocketServer.exe
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\SocketServer.pdb
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\Authentication.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\ManagerConfig.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\SuperSocket.Common.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\SuperSocket.Facility.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\SuperSocket.SocketBase.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\SuperSocket.SocketEngine.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\log4net.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\jsm.SqlHelper.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Data.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Controls.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Serialization.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Topology.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Projections.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Symbology.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Data.Forms.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Extensions.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Symbology.Forms.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Modeling.Forms.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\DotSpatial.Projections.Forms.dll
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\FireLocationService.pdb
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\Authentication.pdb
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\ManagerConfig.pdb
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\jsm.SqlHelper.pdb
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\obj\Release\SocketServer.csprojResolveAssemblyReference.cache
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\obj\Release\SocketServer.Services.Properties.Resources.resources
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\obj\Release\SocketServer.csproj.GenerateResource.Cache
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\obj\Release\SocketServer.exe
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\obj\Release\SocketServer.pdb
+F:\FrameworkWorkShop\360云盘\项目空间\WinFormWeb Framework 1.0\FIS_Data_Server\FIS_Fire_Server\SocketServer\bin\Release\FireLocationService.dll

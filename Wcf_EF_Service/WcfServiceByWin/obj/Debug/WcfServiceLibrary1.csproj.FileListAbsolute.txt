@@ -1,0 +1,6 @@
+F:\C盘桌面\GIS\ESRI开发大赛\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+F:\C盘桌面\GIS\ESRI开发大赛\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+F:\C盘桌面\GIS\ESRI开发大赛\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+F:\C盘桌面\GIS\ESRI开发大赛\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+F:\C盘桌面\GIS\ESRI开发大赛\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+F:\C盘桌面\GIS\ESRI开发大赛\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache

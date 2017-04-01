@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '@Microsoft.AspNet.Mvc.Facebook.GlobalFacebookConfiguration.Configuration.AppId', // App ID
+                status: true, // 检查登录状态
+                cookie: true, // 启用 Cookie 以允许服务器访问会话
+                xfbml: true  // 分析 XFBML
+            });
+        };
+
+        // 异步加载 SDK
+        (function (d) {
+            var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement('script'); js.id = id; js.async = true;
+            js.src = "//connect.facebook.net/en_US/all.js";
+            ref.parentNode.insertBefore(js, ref);
+        }(document));
+    </script>
+
+    <div id="wrapper">
+        <header id="topHeader">
+            <h1>你好</h1>
+            <span id="arrow"></span>
+            <h2>使用 ASP.NET MVC 修改此模板以快速启动 Facebook 应用程序。</h2>
+            <p>
+                了解有关<a href="http://go.microsoft.com/fwlink/?LinkId=301873" target="_blank">使用 ASP.NET MVC 构建 Facebook 应用</a>的详细信息。
+            </p>
+        </header>
+        @RenderBody()
+        <footer>
+            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET MVC 应用程序</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

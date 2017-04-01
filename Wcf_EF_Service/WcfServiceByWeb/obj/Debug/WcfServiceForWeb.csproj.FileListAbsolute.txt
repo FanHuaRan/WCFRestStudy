@@ -1,0 +1,6 @@
+F:\360云盘\项目工程\其他项目\重点工程\WcfEFRestService\WcfService\WcfServiceForWeb\bin\WcfServiceForWeb.dll.config
+F:\360云盘\项目工程\其他项目\重点工程\WcfEFRestService\WcfService\WcfServiceForWeb\bin\WcfServiceForWeb.dll
+F:\360云盘\项目工程\其他项目\重点工程\WcfEFRestService\WcfService\WcfServiceForWeb\bin\WcfServiceForWeb.pdb
+F:\360云盘\项目工程\其他项目\重点工程\WcfEFRestService\WcfService\WcfServiceForWeb\obj\Debug\WcfServiceForWeb.dll
+F:\360云盘\项目工程\其他项目\重点工程\WcfEFRestService\WcfService\WcfServiceForWeb\obj\Debug\WcfServiceForWeb.pdb
+F:\360云盘\项目工程\其他项目\重点工程\WcfEFRestService\WcfService\WcfServiceForWeb\obj\Debug\WcfServiceForWeb.csprojResolveAssemblyReference.cache
