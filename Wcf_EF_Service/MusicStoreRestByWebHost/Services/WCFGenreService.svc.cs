@@ -26,26 +26,26 @@ namespace MusicStoreRestByWebHost.Services
         }
 
         // 在此处添加更多操作并使用 [OperationContract] 标记它们
-        @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-	@ResponseBody
-	@ResponseStatus(HttpStatus.OK)
-	public List<Genre> findAll(){
-		return genreService.findGenres();
-	}
-	@RequestMapping(value="/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseStatus(HttpStatus.OK)
-	@ResponseBody
-	public Genre findOne(@PathVariable("id") Integer id) {
-		return genreService.findGenreById(id);
-	}
-	@RequestMapping(value="/search",produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseStatus(HttpStatus.OK)
-	@ResponseBody
-	public List<Genre> search(@RequestParam(value="name",required=false)String name){
-		if(name!=null||name.equals("")){
-			return genreService.findGenreByName(name);
-		}
-		return genreService.findGenres();
-	}
+    //    @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    //@ResponseBody
+    //@ResponseStatus(HttpStatus.OK)
+    //public List<Genre> findAll(){
+    //    return genreService.findGenres();
+    //}
+    //@RequestMapping(value="/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
+    //@ResponseStatus(HttpStatus.OK)
+    //@ResponseBody
+    //public Genre findOne(@PathVariable("id") Integer id) {
+    //    return genreService.findGenreById(id);
+    //}
+    //@RequestMapping(value="/search",produces = MediaType.APPLICATION_JSON_VALUE)
+    //@ResponseStatus(HttpStatus.OK)
+    //@ResponseBody
+    //public List<Genre> search(@RequestParam(value="name",required=false)String name){
+    //    if(name!=null||name.equals("")){
+    //        return genreService.findGenreByName(name);
+    //    }
+    //    return genreService.findGenres();
+    //}
     }
 }

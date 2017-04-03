@@ -164,6 +164,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Daos\AlbumDao.cs" />
+    <Compile Include="Daos\ArtistDao.cs" />
+    <Compile Include="Daos\EntityBaseDao.cs" />
+    <Compile Include="Daos\GenreDao.cs" />
+    <Compile Include="Daos\OrderDao.cs" />
+    <Compile Include="Daos\OrderDetailDao.cs" />
     <Compile Include="EntityContext\MusicStoreContext.cs" />
     <Compile Include="EntityContext\SampleData.cs" />
     <Compile Include="Global.asax.cs">

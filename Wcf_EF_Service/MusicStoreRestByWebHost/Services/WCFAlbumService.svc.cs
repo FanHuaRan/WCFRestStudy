@@ -1,4 +1,5 @@
-﻿using MusicStoreRestByWebHost.Models;
+﻿using MusicStoreRestByWebHost.Daos;
+using MusicStoreRestByWebHost.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,54 +28,60 @@ namespace MusicStoreRestByWebHost.Services
         }
 
         // 在此处添加更多操作并使用 [OperationContract] 标记它们
+    #region Fields
+    private AlbumDao albumDao=new AlbumDao();
+	#endregion
     [OperationContract]
-    [WebInvoke(Method = "GET", UriTemplate = "Albums", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
-	public List<Album> findAll(){
-		return albumService.findAlbums();
+    [WebInvoke(Method = "GET", UriTemplate = "Album/FindAll", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+	public List<Album> FindAll(){
+		return albumDao.FindAll();
 	}
     [OperationContract]
-   [WebInvoke(Method = "GET", UriTemplate = "Album/id", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
-	public Album findOne(Int32? id) {
-		return albumService.findAlbumById(id);
+   [WebInvoke(Method = "GET", UriTemplate = "Album/{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+	public Album FindOne(Int32 id) {
+		return albumDao.FindById(id);
 	}
     [OperationContract]
-    [WebInvoke(Method = "POST", UriTemplate = "Album", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
-	public Album create(Album album) {
-		return albumService.createAlbum(album);
+    [WebInvoke(Method = "POST", UriTemplate = "Album/Create", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+	public Album Create(Album album) {
+        try{
+          return  albumDao.Save(album);
+        }catch(Exception e){
+            return null;
+        }
 	}
 	[OperationContract]
-    [WebInvoke(Method = "POST", UriTemplate = "Album", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
-	public Album update(Integer id,Album album) {
-		Album originAlbum=null;
-		if(id==null||(originAlbum=albumService.findAlbumById(id))==null){
-			throw new AlbumNotFoundException();
-		}
-		return albumService.editAlbum(album);
+    [WebInvoke(Method = "POST", UriTemplate = "Album/Update", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+	public Album Update(Album album) {
+        try 
+	{	        
+		return albumDao.Update(album);
+	}
+	catch (Exception)
+	{
+		return null;
+	}
+		
 	}
 
 	[OperationContract]
-    [WebInvoke(Method = "POST", UriTemplate = "Album", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
-	public void delete(@PathVariable("id") Integer id) {
-		albumService.deleteAlbum(id);
+    [WebInvoke(Method = "DELETE", UriTemplate = "Album/{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+	public void delete(Int32 id) {
+        albumDao.DeleteById(id);
 	}
 	
 	[OperationContract]
-    [WebInvoke(Method = "GET", UriTemplate = "Album", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
-	public List<Album> search(@RequestParam(value="genreId",required=false)Integer genreId,
-							  @RequestParam(value="title",required=false)String title,
-							  @RequestParam(value="minPrice",required=false,defaultValue="0")Double minPrice,
-							  @RequestParam(value="maxPrice",required=false,defaultValue="100000")Double maxPrice) {
-		String hqlString="from Album album ";
-		List<String> whereHQLS=new ArrayList<String>();
+    [WebInvoke(Method = "GET", UriTemplate = "Album/Search", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+    public List<Album> search(Int32? genreId, String title, decimal minPrice=0, decimal maxPrice=10000)
+    {
+        List<Func<Album, bool>> querys = new List<Func<Album, bool>>();
 		if(genreId!=null){
-			whereHQLS.add(String.format("album.genreId = %d",genreId));
+            querys.Add(p => p.GenreId == genreId);
 		}
-		if(title!=null&&!title.equals("")){
-			whereHQLS.add(String.format("album.title = '%s'",title));
+		if(title!=null&&!(title=="")){
+            querys.Add(p => p.GenreId == genreId);
 		}
-		whereHQLS.add(String.format(" album.price between %f and %f ",minPrice,maxPrice));
-		hqlString+=whereHQLS.stream().collect(Collectors.joining(" and ", "where ", " "));
-		return albumService.findAlbums(hqlString);
-	}
+        querys.Add(p =>( p.Price >= minPrice)&&(p.Price<=maxPrice));
+		return albumDao.SimpleCompositeFind(querys.ToArray());
     }
 }

@@ -26,26 +26,26 @@ namespace MusicStoreRestByWebHost.Services
         }
 
         // 在此处添加更多操作并使用 [OperationContract] 标记它们
-        @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-	@ResponseBody
-	@ResponseStatus(HttpStatus.OK)
-	public List<Artist> findAll(){
-		return artistService.findArtists();
-	}
-	@RequestMapping(value="/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseStatus(HttpStatus.OK)
-	@ResponseBody
-	public Artist findOne(@PathVariable("id") Integer id) {
-		return artistService.findArtistById(id);
-	}
-	@RequestMapping(value="/search",produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseStatus(HttpStatus.OK)
-	@ResponseBody
-	public List<Artist> search(@RequestParam(value="name",required=false)String name){
-		if(name!=null||name.equals("")){
-			return artistService.findArtistByName(name);
-		}
-		return artistService.findArtists();
-	}
+    //@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    //@ResponseBody
+    //@ResponseStatus(HttpStatus.OK)
+    //public List<Artist> findAll(){
+    //    return artistService.findArtists();
+    //}
+    //@RequestMapping(value="/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
+    //@ResponseStatus(HttpStatus.OK)
+    //@ResponseBody
+    //public Artist findOne(@PathVariable("id") Integer id) {
+    //    return artistService.findArtistById(id);
+    //}
+    //@RequestMapping(value="/search",produces = MediaType.APPLICATION_JSON_VALUE)
+    //@ResponseStatus(HttpStatus.OK)
+    //@ResponseBody
+    //public List<Artist> search(@RequestParam(value="name",required=false)String name){
+    //    if(name!=null||name.equals("")){
+    //        return artistService.findArtistByName(name);
+    //    }
+    //    return artistService.findArtists();
+    //}
     }
 }

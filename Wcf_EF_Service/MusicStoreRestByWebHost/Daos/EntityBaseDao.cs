@@ -22,7 +22,7 @@ namespace MusicStoreRestByWebHost.Daos
             context.SaveChanges(); 
         }
 
-        public T Insert(T obj)
+        public T Save(T obj)
         {
             try
             {
