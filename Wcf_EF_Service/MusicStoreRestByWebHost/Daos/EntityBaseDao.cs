@@ -13,7 +13,7 @@ namespace MusicStoreRestByWebHost.Daos
     /// 实体访问泛型基类
     /// 2016/12/26 fhr
     /// </summary>
-    class EntityBaseDao<T> :IDisposable where T : class
+    public class EntityBaseDao<T> :IDisposable where T : class
     {
         protected readonly MusicStoreContext context = new MusicStoreContext();
         public void Delete(T obj)

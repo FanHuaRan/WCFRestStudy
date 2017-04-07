@@ -16,3 +16,9 @@ F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByW
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByWeb\obj\Debug\WcfServiceForWeb.dll
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByWeb\obj\Debug\WcfServiceForWeb.pdb
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByWeb\obj\Debug\WcfRestByWeb.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWeb\bin\WcfServiceForWeb.dll.config
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWeb\bin\WcfServiceForWeb.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWeb\bin\WcfServiceForWeb.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWeb\obj\Debug\WcfRestByWeb.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWeb\obj\Debug\WcfServiceForWeb.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWeb\obj\Debug\WcfServiceForWeb.pdb

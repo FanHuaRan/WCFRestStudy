@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="clientaccesspolicy.xml" />
-    <Content Include="ClientBin\Demo.xap" />
     <Content Include="crossdomain.xml" />
     <Content Include="data\test.db">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -92,7 +91,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ClientBin\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{e10d0678-612d-4fca-a0ea-abb5d6e52b71}</Project>

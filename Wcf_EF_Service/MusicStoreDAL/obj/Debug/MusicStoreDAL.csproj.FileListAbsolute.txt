@@ -1,0 +1,10 @@
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\obj\Debug\MusicStoreDAL.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\MusicStoreDAL.dll.config
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\MusicStoreDAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\MusicStoreDAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\EntityFramework.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\EntityFramework.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\obj\Debug\MusicStoreDAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\obj\Debug\MusicStoreDAL.pdb

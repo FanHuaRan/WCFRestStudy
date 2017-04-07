@@ -10,3 +10,9 @@ F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByW
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByWin\obj\Debug\WcfServiceForWin.dll
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByWin\obj\Debug\WcfServiceForWin.pdb
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfServiceByWin\obj\Debug\WcfRestByWin.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWin\bin\Debug\WcfServiceForWin.dll.config
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWin\bin\Debug\WcfServiceForWin.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWin\bin\Debug\WcfServiceForWin.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWin\obj\Debug\WcfRestByWin.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWin\obj\Debug\WcfServiceForWin.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfServiceByWin\obj\Debug\WcfServiceForWin.pdb

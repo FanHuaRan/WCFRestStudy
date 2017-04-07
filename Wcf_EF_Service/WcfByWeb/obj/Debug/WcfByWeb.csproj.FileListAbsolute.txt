@@ -26,3 +26,17 @@ F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\bin\
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\obj\Debug\WcfByWeb.csprojResolveAssemblyReference.cache
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\obj\Debug\Demo.Web.dll
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WcfByWeb\obj\Debug\Demo.Web.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\data\test.db
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\Demo.Web.dll.config
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\Demo.Web.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\Demo.Web.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\BLL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\DAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\EntityFramework.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\BLL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\DAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\EntityFramework.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\bin\zh-Hans\EntityFramework.resources.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\obj\Debug\WcfByWeb.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\obj\Debug\Demo.Web.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWeb\obj\Debug\Demo.Web.pdb

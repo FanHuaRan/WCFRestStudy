@@ -7,3 +7,12 @@ F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.csproj.GenerateResource.Cache
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.exe
 F:\360云盘\项目工程\其他项目\重点工程\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\bin\Debug\WinformClient.exe.config
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\bin\Debug\WinformClient.exe
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\bin\Debug\WinformClient.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.Form1.resources
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.Properties.Resources.resources
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.csproj.GenerateResource.Cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.exe
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WinformClient\obj\Debug\WinformClient.pdb
