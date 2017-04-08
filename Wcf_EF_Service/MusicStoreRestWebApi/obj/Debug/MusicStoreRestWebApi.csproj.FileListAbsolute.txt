@@ -40,3 +40,11 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\zh-Hans\Sy
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\obj\Debug\MusicStoreRestWebApi.csprojResolveAssemblyReference.cache
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\obj\Debug\MusicStoreRestWebApi.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\obj\Debug\MusicStoreRestWebApi.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\EntityFramework.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\EntityFramework.SqlServer.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreBIL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreDAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\EntityFramework.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\EntityFramework.SqlServer.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreBIL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreDAL.pdb

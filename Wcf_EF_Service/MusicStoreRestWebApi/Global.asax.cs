@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicStoreDAL.EntityContext;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,7 @@ namespace MusicStoreRestWebApi
     {
         protected void Application_Start()
         {
+            System.Data.Entity.Database.SetInitializer<MusicStoreContext>(new SampleData());
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

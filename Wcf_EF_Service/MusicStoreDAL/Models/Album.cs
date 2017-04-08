@@ -40,7 +40,6 @@ namespace MusicStoreDAL.Models
         [DisplayName("Album Art URL")]
         [StringLength(1024)]
         public string AlbumArtUrl { get; set; }
-
         [DataMember]
         public virtual Genre Genre { get; set; }
         [DataMember]

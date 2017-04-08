@@ -98,11 +98,14 @@ namespace MusicStoreBIL.Daos
         /// <returns></returns>
         public List<T> SimpleCompositeFind(params Func<T, bool>[] delegates)
         {
-            return context.Set<T>()
-                .Where(p => isRight(p, delegates))
-                .ToList();
+            //return context.Set<T>()
+            //    .Where(p => isRight(p, delegates))
+            //    .ToList();
+            var result = from album in context.Albums
+                         where isRight(album)
+                         select album;
+            return result.ToList();
         }
-
         private bool isRight(T obj, params Func<T, bool> []delegates)
         {
             foreach (var v in delegates)
