@@ -16,7 +16,7 @@ namespace MusicStoreDAL.Models
         [Required(ErrorMessage = "An Genre Name is required")]
         [DataMember]
         public string Name { get; set; }
-        [Required(ErrorMessage = "An Genre Description is required")]
+        //[Required(ErrorMessage = "An Genre Description is required")]
         [StringLength(100)]
         [DataMember]
         public string Description { get; set; }

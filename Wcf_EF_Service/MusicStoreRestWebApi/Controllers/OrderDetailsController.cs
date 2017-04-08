@@ -13,18 +13,21 @@ namespace MusicStoreRestWebApi.Controllers
     {
         private OrderDetailDao orderDetailDao = new OrderDetailDao();
         // GET api/orderdetails
+        [HttpGet]
         public IEnumerable<OrderDetail> Get()
         {
             return orderDetailDao.FindAll();
         }
 
         // GET api/orderdetails/5
+        [HttpGet]
         public OrderDetail Get(int id)
         {
             return orderDetailDao.FindById(id);
         }
 
         // POST api/orderdetails
+        [HttpPost]
         public void Post([FromBody]OrderDetail orderDetail)
         {
             //先校验
@@ -35,6 +38,7 @@ namespace MusicStoreRestWebApi.Controllers
         }
 
         // PUT api/orderdetails/5
+        [HttpPut]
         public void Put(int id, [FromBody]OrderDetail orderDetail)
         {
             if (orderDetailDao.FindById(id) != null && ModelState.IsValid)
@@ -44,6 +48,7 @@ namespace MusicStoreRestWebApi.Controllers
         }
 
         // DELETE api/orderdetails/5
+        [HttpDelete]
         public void Delete(int id)
         {
         }

@@ -1,5 +1,6 @@
 ﻿using MusicStoreBIL.Daos;
 using MusicStoreDAL.Models;
+using MusicStoreRestWebApi.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,21 +19,11 @@ namespace MusicStoreRestWebApi.Controllers
     {
         private readonly AlbumDao albumDao = new AlbumDao();
         // GET api/albums
-        public IHttpActionResult Get(int? genreId, string title, decimal minPrice = 0, decimal maxPrice = 998)
+        [System.Web.Http.HttpGet]
+        public IHttpActionResult Get()
         {
-            //IEnumerable<Album> albums = albumDao.FindAll();
-            //return Json<IEnumerable<Album>>(albums);
-            List<Func<Album, bool>> conditions = new List<Func<Album, bool>>();
-            conditions.Add(album => album.Price >= minPrice && album.Price <= maxPrice);
-            if (genreId != null)
-            {
-                conditions.Add(album => album.GenreId == genreId.Value);
-            }
-            if (title != null)
-            {
-                conditions.Add(album => album.Title == title);
-            }
-            return Json<IEnumerable<Album>>(albumDao.SimpleCompositeFind(conditions.ToArray()));
+            IEnumerable<Album> albums = albumDao.FindAll();
+            return Json<IEnumerable<Album>>(albums);
         }
         // GET api/albums
         //public IEnumerable<Album> Get()
@@ -41,12 +32,14 @@ namespace MusicStoreRestWebApi.Controllers
         //}
 
         // GET api/albums/5
+        [System.Web.Http.HttpGet]
         public IHttpActionResult Get(int id)
         {
             return Json<Album>(albumDao.FindById(id));
         }
 
         // POST api/albums
+         [System.Web.Http.HttpPost]
         public void Post([FromBody]Album album)
         {
             //先校验
@@ -57,6 +50,7 @@ namespace MusicStoreRestWebApi.Controllers
         }
 
         // PUT api/albums/5
+         [System.Web.Http.HttpPut]
         public void Put(int id, [FromBody]Album album)
         {
             if (albumDao.FindById(id) != null && ModelState.IsValid)
@@ -66,26 +60,32 @@ namespace MusicStoreRestWebApi.Controllers
         }
 
         // DELETE api/albums/5
+         [System.Web.Http.HttpDelete]
         public void Delete(int id)
         {
             albumDao.DeleteById(id);
         }
-        //GET 
-        [System.Web.Http.Route("api/Albums/Search")]
-        public IEnumerable<Album> GetSearch(int? genreId/*, string title, decimal minPrice=0, decimal maxPrice=998*/)
+        [System.Web.Http.HttpGet]
+         public IHttpActionResult GetSearch([FromUri]AlbumSearchParam albumSearchParam)
         {
             List<Func<Album, bool>> conditions = new List<Func<Album, bool>>();
-         //   conditions.Add(album => album.Price >= minPrice && album.Price <= maxPrice);
-            if (genreId != null)
+            if (albumSearchParam.GenreId!= null)
             {
-                conditions.Add(album => album.GenreId == genreId);
+                conditions.Add(album => album.GenreId == albumSearchParam.GenreId);
             }
-            //if (title != null)
-            //{
-            //    conditions.Add(album => album.Title == title);
-            //}
-            albumDao.SimpleCompositeFind(conditions.ToArray());
-            return null;
+            if (albumSearchParam.Title != null)
+            {
+                conditions.Add(album => album.Title == albumSearchParam.Title);
+            }
+            if (albumSearchParam.MinPrice != null)
+            {
+                conditions.Add(album => album.Price >= albumSearchParam.MinPrice);
+            }
+            if (albumSearchParam.MaxPrice != null)
+            {
+                conditions.Add(album => album.Price <= albumSearchParam.MaxPrice);
+            }
+            return Json<IEnumerable<Album>>(albumDao.SimpleCompositeFind(conditions.ToArray()));
         }
     }
 }

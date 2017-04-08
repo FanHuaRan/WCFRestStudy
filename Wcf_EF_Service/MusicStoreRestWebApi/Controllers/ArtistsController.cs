@@ -9,22 +9,26 @@ using System.Web.Http;
 
 namespace MusicStoreRestWebApi.Controllers
 {
+    //[RoutePrefix("api/Artists")]
     public class ArtistsController : ApiController
     {
         private ArtistDao artistDao = new ArtistDao();
         // GET api/artists
+        [HttpGet]
         public IEnumerable<Artist> Get()
         {
             return artistDao.FindAll();
         }
 
         // GET api/artists/5
+        [HttpGet]
+        //[Route("api/Artists/{id:int}")]
         public Artist Get(int id)
         {
             return artistDao.FindById(id);
         }
-
         // POST api/artists
+        [HttpPost]
         public void Post([FromBody]Artist artist)
         {
             //先校验
@@ -35,6 +39,7 @@ namespace MusicStoreRestWebApi.Controllers
         }
 
         // PUT api/artists/5
+        [HttpPut]
         public void Put(int id, [FromBody]Artist artist)
         {
             if (artistDao.FindById(id) != null && ModelState.IsValid)
@@ -42,8 +47,9 @@ namespace MusicStoreRestWebApi.Controllers
                 artistDao.Update(artist);
             }
         }
-
+        
         // DELETE api/artists/5
+        [HttpDelete]
         public void Delete(int id)
         {
             artistDao.DeleteById(id);

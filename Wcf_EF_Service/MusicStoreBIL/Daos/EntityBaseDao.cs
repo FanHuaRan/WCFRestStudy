@@ -93,6 +93,7 @@ namespace MusicStoreBIL.Daos
         }
         /// <summary>
         /// 自定义的组合查询
+        /// 不提倡
         /// </summary>
         /// <param name="delegates"></param>
         /// <returns></returns>
@@ -101,10 +102,16 @@ namespace MusicStoreBIL.Daos
             //return context.Set<T>()
             //    .Where(p => isRight(p, delegates))
             //    .ToList();
-            var result = from album in context.Albums
-                         where isRight(album)
-                         select album;
-            return result.ToList();
+            if (delegates.Length == 0)
+            {
+                return FindAll();
+            }
+            var objects = context.Set<T>().Select(p => p);
+            foreach (var condition in delegates)
+            {
+                objects =objects.Where(condition).Select(p => p).AsQueryable<T>();
+            }
+            return objects.ToList();
         }
         private bool isRight(T obj, params Func<T, bool> []delegates)
         {

@@ -14,18 +14,21 @@ namespace MusicStoreRestWebApi.Controllers
         private GenreDao genreDao = new GenreDao();
 
         // GET api/genres
+        [HttpGet]
         public IEnumerable<Genre> Get()
         {
             return genreDao.FindAll();
         }
 
         // GET api/genres/5
+        [HttpGet]
         public Genre Get(int id)
         {
             return genreDao.FindById(id);
         }
 
         // POST api/genres
+        [HttpPost]
         public void Post([FromBody]Genre genre)
         {
             //先校验
@@ -36,6 +39,7 @@ namespace MusicStoreRestWebApi.Controllers
         }
 
         // PUT api/genres/5
+        [HttpPut]
         public void Put(int id, [FromBody]Genre genre)
         {
             if (genreDao.FindById(id) != null && ModelState.IsValid)
@@ -45,6 +49,7 @@ namespace MusicStoreRestWebApi.Controllers
         }
 
         // DELETE api/genres/5
+        [HttpDelete]
         public void Delete(int id)
         {
             genreDao.DeleteById(id);

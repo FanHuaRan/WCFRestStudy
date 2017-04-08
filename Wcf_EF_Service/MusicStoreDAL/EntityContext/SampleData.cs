@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 using MusicStoreDAL.Models;
+using System.Data.Entity.Validation;
+using System.Diagnostics;
 
 namespace MusicStoreDAL.EntityContext
 {
@@ -11,7 +13,9 @@ namespace MusicStoreDAL.EntityContext
     {
         protected override void Seed(MusicStoreContext context)
         {
-            var genres = new List<Genre>
+            try
+            {
+                var genres = new List<Genre>
             {
                 new Genre { Name = "Rock" },
                 new Genre { Name = "Jazz" },
@@ -25,7 +29,7 @@ namespace MusicStoreDAL.EntityContext
                 new Genre { Name = "Classical" }
             };
 
-            var artists = new List<Artist>
+                var artists = new List<Artist>
             {
                 new Artist { Name = "Aaron Copland & London Symphony Orchestra" },
                 new Artist { Name = "Aaron Goldberg" },
@@ -178,7 +182,7 @@ namespace MusicStoreDAL.EntityContext
                 new Artist { Name = "Zeca Pagodinho" }
             };
 
-            new List<Album>
+                new List<Album>
             {
                 new Album { Title = "The Best Of Men At Work", Genre = genres.Single(g => g.Name == "Rock"), Price = 8.99M, Artist = artists.Single(a => a.Name == "Men At Work"), AlbumArtUrl = "/Content/Images/placeholder.gif" },
                 new Album { Title = "A Copland Celebration, Vol. I", Genre = genres.Single(g => g.Name == "Classical"), Price = 8.99M, Artist = artists.Single(a => a.Name == "Aaron Copland & London Symphony Orchestra"), AlbumArtUrl = "/Content/Images/placeholder.gif" },
@@ -427,7 +431,22 @@ namespace MusicStoreDAL.EntityContext
                 new Album { Title = "Bach: The Cello Suites", Genre = genres.Single(g => g.Name == "Classical"), Price = 8.99M, Artist = artists.Single(a => a.Name == "Yo-Yo Ma"), AlbumArtUrl = "/Content/Images/placeholder.gif" },
                 new Album { Title = "Ao Vivo [IMPORT]", Genre = genres.Single(g => g.Name == "Latin"), Price = 8.99M, Artist = artists.Single(a => a.Name == "Zeca Pagodinho"), AlbumArtUrl = "/Content/Images/placeholder.gif" },
             }.ForEach(a => context.Albums.Add(a));
-            context.SaveChanges();
+                context.SaveChanges();
+            }
+            catch (DbEntityValidationException e)
+            {
+                foreach (var eve in e.EntityValidationErrors)
+                {
+                    Debug.Print("Entity of type \"{0}\" in state \"{1}\" has the following validation errors:",
+                        eve.Entry.Entity.GetType().Name, eve.Entry.State);
+                    foreach (var ve in eve.ValidationErrors)
+                    {
+                        Debug.Print("- Property: \"{0}\", Error: \"{1}\"",
+                            ve.PropertyName, ve.ErrorMessage);
+                    }
+                }
+                throw;
+            }
         }
     }
 }
