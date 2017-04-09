@@ -44,6 +44,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreDAL", "MusicStore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreBIL", "MusicStoreBIL\MusicStoreBIL.csproj", "{76DAADEF-57FD-4FB9-A333-91AD7DEBCEF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestByWindows", "MusicStoreWcfRestByWindows\MusicStoreWcfRestByWindows.csproj", "{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestContract", "MusicStoreWcfRestContract\MusicStoreWcfRestContract.csproj", "{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestService", "MusicStoreWcfRestService\MusicStoreWcfRestService.csproj", "{B15E5EBF-3CA1-4E57-A424-D46E835035B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -184,6 +190,36 @@ Global
 		{76DAADEF-57FD-4FB9-A333-91AD7DEBCEF9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{76DAADEF-57FD-4FB9-A333-91AD7DEBCEF9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{76DAADEF-57FD-4FB9-A333-91AD7DEBCEF9}.Release|x86.ActiveCfg = Release|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47}.Release|x86.ActiveCfg = Release|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563}.Release|x86.ActiveCfg = Release|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,5 +235,8 @@ Global
 		{ED41AE9F-D4AF-4739-AEA8-A8C2DF0BF67C} = {001E3DEF-7918-459B-A539-1972492FE895}
 		{082F02B1-B766-408E-A5AF-759AEBEF551B} = {001E3DEF-7918-459B-A539-1972492FE895}
 		{76DAADEF-57FD-4FB9-A333-91AD7DEBCEF9} = {001E3DEF-7918-459B-A539-1972492FE895}
+		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47} = {001E3DEF-7918-459B-A539-1972492FE895}
+		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563} = {001E3DEF-7918-459B-A539-1972492FE895}
+		{B15E5EBF-3CA1-4E57-A424-D46E835035B0} = {001E3DEF-7918-459B-A539-1972492FE895}
 	EndGlobalSection
 EndGlobal
