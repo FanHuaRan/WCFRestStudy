@@ -8,3 +8,13 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debu
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreWcfRestService.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreWcfRestContract.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreWcfRestService.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\EntityFramework.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreDAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\EntityFramework.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreDAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreBIL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreUtils.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreBIL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreUtils.pdb

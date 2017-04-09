@@ -13,26 +13,28 @@ namespace MusicStoreWcfRestContract
     public interface IWCFAlbumService
     {
         [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "Album/FindAll", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
-        List<Album> FindAll();
+        [WebInvoke(Method = "GET", UriTemplate = "FindAll", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        IEnumerable<Album> FindAll();
         [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "Album/{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
-         Album FindOne(Int32 id);
+        //[WebInvoke(Method = "GET", UriTemplate = "{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        [WebInvoke(Method = "GET", UriTemplate = "FindOne/{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        Album FindOne(string id);
 
         [OperationContract]
-        [WebInvoke(Method = "POST", UriTemplate = "Album/Create", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        [WebInvoke(Method = "POST", UriTemplate = "Create", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
         Album Create(Album album);
 
         [OperationContract]
-        [WebInvoke(Method = "POST", UriTemplate = "Album/Update", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        [WebInvoke(Method = "POST", UriTemplate = "Update", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
         Album Update(Album album);
 
         [OperationContract]
-        [WebInvoke(Method = "DELETE", UriTemplate = "Album/{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
-        void delete(Int32 id);
+        //[WebInvoke(Method = "DELETE", UriTemplate = "{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        [WebInvoke(Method = "DELETE", UriTemplate = "Delete/{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        void delete(string id);
 
-        [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "Album/Search?", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
-        List<Album> search(Int32? genreId, String title, decimal minPrice = 0, decimal maxPrice = 10000);
+        //[OperationContract]
+        //[WebInvoke(Method = "GET", UriTemplate = "Search?", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        //IEnumerable<Album> search(Int32? genreId, String title, decimal minPrice = 0, decimal maxPrice = 10000);
     }
 }

@@ -11,3 +11,14 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\EntityFramework.xml
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\EntityFramework.SqlServer.xml
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\MusicStoreDAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\MusicStoreBIL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\MusicStoreUtils.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\System.Web.Http.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\System.Net.Http.Formatting.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\Newtonsoft.Json.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\MusicStoreBIL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\MusicStoreUtils.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\System.Web.Http.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\System.Net.Http.Formatting.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll

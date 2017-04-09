@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestContract",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestService", "MusicStoreWcfRestService\MusicStoreWcfRestService.csproj", "{B15E5EBF-3CA1-4E57-A424-D46E835035B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreUtils", "MusicStoreUtils\MusicStoreUtils.csproj", "{CDB2E23E-1268-4688-994C-DB515758788E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -220,6 +222,16 @@ Global
 		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B15E5EBF-3CA1-4E57-A424-D46E835035B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CDB2E23E-1268-4688-994C-DB515758788E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,5 +250,6 @@ Global
 		{FAD4AF4F-1F29-4305-B27F-24D08E86EC47} = {001E3DEF-7918-459B-A539-1972492FE895}
 		{CCFB6C47-DB02-4E74-8AEF-BC0E39BFC563} = {001E3DEF-7918-459B-A539-1972492FE895}
 		{B15E5EBF-3CA1-4E57-A424-D46E835035B0} = {001E3DEF-7918-459B-A539-1972492FE895}
+		{CDB2E23E-1268-4688-994C-DB515758788E} = {001E3DEF-7918-459B-A539-1972492FE895}
 	EndGlobalSection
 EndGlobal

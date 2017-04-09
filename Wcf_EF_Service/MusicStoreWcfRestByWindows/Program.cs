@@ -1,4 +1,5 @@
-﻿using MusicStoreWcfRestService;
+﻿using MusicStoreDAL.EntityContext;
+using MusicStoreWcfRestService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,26 @@ namespace MusicStoreWcfRestByWindows
     {
         static void Main(string[] args)
         {
-            using (WebServiceHost host = new WebServiceHost(typeof(EmployeesService)))
+            //using (var host = new WebServiceHost(typeof(EmployeesService)))
+            //{
+            //    host.Open();
+            //    Console.Read();
+            //}
+            System.Data.Entity.Database.SetInitializer<MusicStoreContext>(new SampleData());
+            var hosts = new List<WebServiceHost>()
+            {
+                new WebServiceHost(typeof(EmployeesService)),
+                new WebServiceHost(typeof(WCFAlbumService))
+            };
+            hosts.ForEach(host =>
             {
                 host.Open();
-                Console.Read();
-            }
+            });
+            Console.ReadLine();
+            hosts.ForEach(host =>
+            {
+                host.Close();
+            });
         }
     }
 }
