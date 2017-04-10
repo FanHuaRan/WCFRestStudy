@@ -27,10 +27,10 @@ namespace MusicStoreDAL.Models
         [DataMember]
         public decimal UnitPrice { get; set; }
 
-        //[DataMember]
-        //public virtual Album Album { get; set; }
+        [IgnoreDataMember]
+        public virtual Album Album { get; set; }
 
-        //[DataMember]
-        //public virtual Order Order { get; set; }
+        [IgnoreDataMember]
+        public virtual Order Order { get; set; }
     }
 }

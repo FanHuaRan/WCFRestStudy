@@ -40,9 +40,10 @@ namespace MusicStoreDAL.Models
         [DisplayName("Album Art URL")]
         [StringLength(1024)]
         public string AlbumArtUrl { get; set; }
-        [DataMember]
+        //IgnoreDataMember标识该属性不参与序列化，和什么都不加一样的效果
+        [IgnoreDataMember]
         public virtual Genre Genre { get; set; }
-        [DataMember]
+        [IgnoreDataMember]
         public virtual Artist Artist { get; set; }
     }
 }

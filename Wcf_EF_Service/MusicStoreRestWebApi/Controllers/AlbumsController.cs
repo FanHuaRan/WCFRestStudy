@@ -13,17 +13,19 @@ using System.Web.UI.WebControls;
 namespace MusicStoreRestWebApi.Controllers
 {
     /// <summary>
-    /// 解析器有问题，全部自己解析为json
+    /// 可以使用IHttpActionResult类型和Json方法返回json
+    /// 但是一般还是直接返回对象，然后框架自动序列化
     /// </summary>
     public class AlbumsController : ApiController
     {
         private readonly AlbumDao albumDao = new AlbumDao();
         // GET api/albums
         [System.Web.Http.HttpGet]
-        public IHttpActionResult Get()
+        public IEnumerable<Album> Get()
         {
             IEnumerable<Album> albums = albumDao.FindAll();
-            return Json<IEnumerable<Album>>(albums);
+            //return Json<IEnumerable<Album>>(albums);
+            return albums;
         }
         // GET api/albums
         //public IEnumerable<Album> Get()
