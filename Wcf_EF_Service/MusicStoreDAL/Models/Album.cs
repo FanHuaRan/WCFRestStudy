@@ -11,7 +11,7 @@ namespace MusicStoreDAL.Models
 {
     //UI不准许绑定AlbumId属性
     [Bind(Exclude = "AlbumId")]
-    [DataContract]
+    [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class Album
     {
         [DataMember]

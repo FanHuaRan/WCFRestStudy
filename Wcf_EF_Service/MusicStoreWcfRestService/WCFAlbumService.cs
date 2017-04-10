@@ -40,7 +40,7 @@ namespace MusicStoreWcfRestService
         public MusicStoreDAL.Models.Album FindOne(string id)
         {
             var id2 = int.Parse(id);
-            var album = albumDao.FindById(id2);
+            Album album = albumDao.FindById(id2);
             if (album == null)
             {
                 WebOperationContext.Current.OutgoingResponse.StatusCode = HttpStatusCode.NotFound;

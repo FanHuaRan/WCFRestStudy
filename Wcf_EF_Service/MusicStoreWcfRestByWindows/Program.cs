@@ -21,8 +21,8 @@ namespace MusicStoreWcfRestByWindows
             System.Data.Entity.Database.SetInitializer<MusicStoreContext>(new SampleData());
             var hosts = new List<WebServiceHost>()
             {
-                new WebServiceHost(typeof(EmployeesService)),
-                new WebServiceHost(typeof(WCFAlbumService))
+                new WebServiceHost(typeof(WCFAlbumService)),
+                new WebServiceHost(typeof(EmployeesService))
             };
             hosts.ForEach(host =>
             {

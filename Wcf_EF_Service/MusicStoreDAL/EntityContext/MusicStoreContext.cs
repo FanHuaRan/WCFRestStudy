@@ -22,7 +22,8 @@ namespace MusicStoreDAL.EntityContext
         public MusicStoreContext()
             : base("musicdb")
         {
-
+            //取消代理类型，否则序列化会出问题
+            this.Configuration.ProxyCreationEnabled = false;
         }
 
         //去掉表名复数

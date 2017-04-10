@@ -14,7 +14,7 @@ namespace MusicStoreDAL.Models
     /// </summary>
     /// 
     [Bind(Exclude = "OrderId")]
-    [DataContract]
+    [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class Order
     {
         [DataMember]

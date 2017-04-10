@@ -41,7 +41,7 @@
     </Reference>
     <Reference Include="MusicStoreDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\MusicStoreBIL\bin\Debug\MusicStoreDAL.dll</HintPath>
+      <HintPath>..\MusicStoreDAL\bin\Debug\MusicStoreDAL.dll</HintPath>
     </Reference>
     <Reference Include="MusicStoreWcfRestContract">
       <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreWcfRestContract.dll</HintPath>

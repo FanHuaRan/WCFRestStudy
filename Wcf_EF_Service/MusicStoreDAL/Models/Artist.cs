@@ -7,7 +7,7 @@ using System.Web;
 
 namespace MusicStoreDAL.Models
 {
-    [DataContract]
+    [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class Artist
     {
         [DataMember]

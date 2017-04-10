@@ -9,7 +9,7 @@ namespace MusicStoreDAL.Models
     /// <summary>
     /// 订单细节 对应一种专辑
     /// </summary>
-    [DataContract]
+    [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class OrderDetail
     {
         [DataMember]
