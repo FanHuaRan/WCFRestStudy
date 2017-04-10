@@ -13,7 +13,8 @@ namespace MusicStoreWcfRestContract
     public interface IWCFAlbumService
     {
         [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "FindAll", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        //[WebInvoke(Method = "GET", UriTemplate = "FindAll", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        [WebInvoke(Method = "GET", UriTemplate = "FindAll")]
         IEnumerable<Album> FindAll();
         [OperationContract]
         //[WebInvoke(Method = "GET", UriTemplate = "{id}", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
