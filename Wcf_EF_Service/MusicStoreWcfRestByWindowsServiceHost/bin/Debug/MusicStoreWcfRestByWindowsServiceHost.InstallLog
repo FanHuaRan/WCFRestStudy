@@ -1,0 +1,13 @@
+﻿正在安装程序集“E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\MusicStoreWcfRestByWindowsServiceHost.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\MusicStoreWcfRestByWindowsServiceHost.exe
+   logfile = E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\MusicStoreWcfRestByWindowsServiceHost.InstallLog
+正在安装服务 MusicStoreWindowsService...
+已成功安装服务 MusicStoreWindowsService。
+正在日志 Application 中创建 EventLog 源 MusicStoreWindowsService...
+正在提交程序集“E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\MusicStoreWcfRestByWindowsServiceHost.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\MusicStoreWcfRestByWindowsServiceHost.exe
+   logfile = E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\MusicStoreWcfRestByWindowsServiceHost.InstallLog
