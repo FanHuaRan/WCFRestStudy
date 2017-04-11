@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MusicStoreRestByWebHost.Daos
+namespace MusicStoreBIL.Daos
 {
     public class OrderDao:EntityBaseDao<Order>
     {

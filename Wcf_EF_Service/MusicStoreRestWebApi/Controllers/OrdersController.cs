@@ -1,5 +1,5 @@
-﻿using MusicStoreDAL.Models;
-using MusicStoreRestByWebHost.Daos;
+﻿using MusicStoreBIL.Daos;
+using MusicStoreDAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

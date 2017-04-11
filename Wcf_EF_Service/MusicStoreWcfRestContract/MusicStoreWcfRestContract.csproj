@@ -53,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="DataContract\Employee.cs" />
     <Compile Include="IEmployeesService.cs" />
     <Compile Include="IWCFAlbumService.cs" />
     <Compile Include="IWCFArtistService.cs" />
