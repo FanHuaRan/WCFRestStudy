@@ -66,7 +66,7 @@ namespace MusicStoreWcfRestService
             return null;
         }
 
-        public void delete(string id)
+        public void Delete(string id)
         {
             var id2 = int.Parse(id);
             var album = albumDao.FindById(id2);
@@ -77,19 +77,26 @@ namespace MusicStoreWcfRestService
             albumDao.DeleteById(id2);
         }
 
-        //public IEnumerable<MusicStoreDAL.Models.Album> search(int? genreId, string title, decimal minPrice = 0m, decimal maxPrice = 10000m)
-        //{
-        //    List<Func<Album, bool>> conditions = new List<Func<Album, bool>>();
-        //    if (genreId != null)
-        //    {
-        //        conditions.Add(album => album.GenreId == genreId);
-        //    }
-        //    if (title != null)
-        //    {
-        //        conditions.Add(album => album.Title == title);
-        //    }
-        //    conditions.Add(album => album.Price >= minPrice && album.Price < maxPrice);
-        //    return albumDao.SimpleCompositeFind(conditions.ToArray());
-        //}
+        public IEnumerable<Album> search(int genreId, string title, decimal minPrice =-1, decimal maxPrice=-1)
+        {
+            List<Func<Album, bool>> conditions = new List<Func<Album, bool>>();
+            if (genreId != 0)
+            {
+                conditions.Add(album => album.GenreId == genreId);
+            }
+            if (title != null && title!="")
+            {
+                conditions.Add(album => album.Title == title);
+            }
+            if (minPrice != -1)
+            {
+                conditions.Add(album => album.Price >= minPrice);
+            }
+            if (maxPrice != -1)
+            {
+                conditions.Add(album => album.Price < maxPrice);
+            }
+            return albumDao.SimpleCompositeFind(conditions.ToArray());
+        }
     }
 }

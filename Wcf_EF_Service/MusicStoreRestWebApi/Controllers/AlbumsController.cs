@@ -19,6 +19,7 @@ namespace MusicStoreRestWebApi.Controllers
     public class AlbumsController : ApiController
     {
         private readonly AlbumDao albumDao = new AlbumDao();
+
         // GET api/albums
         [System.Web.Http.HttpGet]
         public IEnumerable<Album> Get()
@@ -67,6 +68,7 @@ namespace MusicStoreRestWebApi.Controllers
         {
             albumDao.DeleteById(id);
         }
+
         [System.Web.Http.HttpGet]
          public IHttpActionResult GetSearch([FromUri]AlbumSearchParam albumSearchParam)
         {

@@ -51,6 +51,7 @@ namespace MusicStoreRestWebApi.Controllers
         [HttpDelete]
         public void Delete(int id)
         {
+            orderDetailDao.DeleteById(id);
         }
     }
 }

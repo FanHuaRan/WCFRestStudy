@@ -85,19 +85,18 @@ namespace MusicStoreWcfRestService
         {
             if (albumId == null && orderId == null)
             {
-                return FindAll();
+                return new List<OrderDetail>();
             }
             Int32 realAlbumId, realOrderId;
             if ((!Int32.TryParse(albumId, out realAlbumId) && albumId != null)
                 || (!Int32.TryParse(orderId, out realOrderId) && orderId != null))
             {
-                WebOperationContext.Current.OutgoingResponse.StatusCode = HttpStatusCode.NotFound;
+                WebOperationContext.Current.OutgoingResponse.StatusCode = HttpStatusCode.NotAcceptable;
                 return null;
             }
             else
             {
-                orderDetailDao.SimpleCompositeFind(getCondtions(albumId, orderId, realAlbumId, realOrderId).ToArray());
-                return null;
+               return orderDetailDao.SimpleCompositeFind(getCondtions(albumId, orderId, realAlbumId, realOrderId).ToArray());
             }
         }
 
