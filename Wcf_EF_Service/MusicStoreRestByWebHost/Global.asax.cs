@@ -24,8 +24,7 @@ namespace MusicStoreRestByWebHost
           //  RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             RegisterRoutes(RouteTable.Routes);
-            RouteTable.Routes.Add(new ServiceRoute("WCFAlbumService", new WebServiceHostFactory(), typeof(WCFAlbumService)));//注意：服务类型是实现服务的类。
-            //RouteTable.Routes.Add(new ServiceRoute("WCFArtsitService", new WebServiceHostFactory(), typeof(WCFArtsitService)));//注意：服务类型是实现服务的类。
+            RouteTable.Routes.Add(new ServiceRoute("Employees", new WebServiceHostFactory(), typeof(EmployeesService)));//注意：服务类型是实现服务的类。            
             //RouteTable.Routes.Add(new ServiceRoute("WCFGenreService", new WebServiceHostFactory(), typeof(WCFGenreService)));//注意：服务类型是实现服务的类。
             //RouteTable.Routes.Add(new ServiceRoute("WCFOrderDetailService", new WebServiceHostFactory(), typeof(WCFOrderDetailService)));//注意：服务类型是实现服务的类。
             //RouteTable.Routes.Add(new ServiceRoute("WCFOrderService", new WebServiceHostFactory(), typeof(WCFOrderService)));//注意：服务类型是实现服务的类。

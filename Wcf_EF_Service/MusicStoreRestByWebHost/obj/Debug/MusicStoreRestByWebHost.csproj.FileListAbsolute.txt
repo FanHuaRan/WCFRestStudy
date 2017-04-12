@@ -146,3 +146,13 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\zh-Hans
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreBIL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreDAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreUtils.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreWcfRestContract.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreWcfRestService.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreBIL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreDAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreUtils.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreWcfRestContract.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreWcfRestService.pdb
