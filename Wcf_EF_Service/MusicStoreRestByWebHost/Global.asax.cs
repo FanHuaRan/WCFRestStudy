@@ -1,5 +1,4 @@
-﻿using MusicStoreRestByWebHost.EntityContext;
-using MusicStoreRestByWebHost.Models;
+﻿using MusicStoreRestByWebHost.Models;
 using System;
 using System;
 using System.Collections.Generic;
@@ -11,7 +10,8 @@ using System.Web.SessionState;
 using System.ServiceModel.Activation;
 using System.Web.Mvc;
 using System.Web.Optimization;
-using MusicStoreRestByWebHost.Services;
+using MusicStoreDAL.EntityContext;
+using MusicStoreWcfRestService;
 namespace MusicStoreRestByWebHost
 {
     public class MvcApplication : System.Web.HttpApplication

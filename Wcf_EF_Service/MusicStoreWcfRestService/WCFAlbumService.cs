@@ -1,5 +1,4 @@
 ﻿using MusicStoreBIL.Daos;
-using MusicStoreDAL.Models;
 using MusicStoreUtils;
 using MusicStoreWcfRestContract;
 using System;
@@ -32,12 +31,12 @@ namespace MusicStoreWcfRestService
             return null;
         }
 
-        public IEnumerable<MusicStoreDAL.Models.Album> FindAll()
+        public IEnumerable<Album> FindAll()
         {
             return albumDao.FindAll();
         }
 
-        public MusicStoreDAL.Models.Album FindOne(string id)
+        public Album FindOne(string id)
         {
             var id2 = int.Parse(id);
             Album album = albumDao.FindById(id2);
@@ -48,7 +47,7 @@ namespace MusicStoreWcfRestService
             return album;
         }
 
-        public MusicStoreDAL.Models.Album Update(MusicStoreDAL.Models.Album album)
+        public Album Update(Album album)
         {
             if (albumDao.FindById(album.AlbumId) == null)
             {

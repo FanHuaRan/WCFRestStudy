@@ -1,5 +1,4 @@
 ﻿using MusicStoreDAL.EntityContext;
-using MusicStoreDAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Validation;

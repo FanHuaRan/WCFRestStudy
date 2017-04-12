@@ -6,7 +6,6 @@ using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.Text;
 using System.Threading.Tasks;
-using MusicStoreDAL.Models;
 using System.ServiceModel.Web;
 using MusicStoreBIL.Daos;
 using System.Net;

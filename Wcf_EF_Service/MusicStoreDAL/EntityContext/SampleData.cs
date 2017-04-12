@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-using MusicStoreDAL.Models;
 using System.Data.Entity.Validation;
 using System.Diagnostics;
+using MusicStoreWcfRestContract;
 
 namespace MusicStoreDAL.EntityContext
 {

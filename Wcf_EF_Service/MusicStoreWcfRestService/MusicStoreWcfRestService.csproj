@@ -39,13 +39,15 @@
     <Reference Include="MusicStoreBIL">
       <HintPath>..\MusicStoreBIL\bin\Debug\MusicStoreBIL.dll</HintPath>
     </Reference>
-    <Reference Include="MusicStoreDAL">
-      <HintPath>..\MusicStoreWcfRestContract\bin\Debug\MusicStoreDAL.dll</HintPath>
+    <Reference Include="MusicStoreDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MusicStoreDAL\bin\Debug\MusicStoreDAL.dll</HintPath>
     </Reference>
     <Reference Include="MusicStoreUtils">
       <HintPath>..\MusicStoreUtils\bin\Debug\MusicStoreUtils.dll</HintPath>
     </Reference>
-    <Reference Include="MusicStoreWcfRestContract">
+    <Reference Include="MusicStoreWcfRestContract, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\MusicStoreWcfRestContract\bin\Debug\MusicStoreWcfRestContract.dll</HintPath>
     </Reference>
     <Reference Include="System" />

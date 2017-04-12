@@ -6,7 +6,6 @@ using System.ServiceModel.Activation;
 using System.Text;
 using System.Threading.Tasks;
 using MusicStoreWcfRestContract;
-using MusicStoreDAL.Models;
 using MusicStoreBIL.Daos;
 using System.ServiceModel.Web;
 using System.Net;

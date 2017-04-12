@@ -47,11 +47,16 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MusicStoreBIL">
-      <HintPath>..\MusicStoreBIL\bin\Debug\MusicStoreBIL.dll</HintPath>
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreBIL.dll</HintPath>
     </Reference>
-    <Reference Include="MusicStoreDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\MusicStoreDAL\bin\Debug\MusicStoreDAL.dll</HintPath>
+    <Reference Include="MusicStoreDAL">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="MusicStoreUtils">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="MusicStoreWcfRestContract">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreWcfRestContract.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

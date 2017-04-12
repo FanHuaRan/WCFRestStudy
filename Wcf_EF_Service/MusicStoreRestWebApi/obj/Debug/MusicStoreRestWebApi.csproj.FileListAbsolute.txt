@@ -48,3 +48,7 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\EntityFram
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\EntityFramework.SqlServer.xml
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreBIL.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreDAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreUtils.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreWcfRestContract.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreUtils.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreWcfRestContract.pdb

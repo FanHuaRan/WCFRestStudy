@@ -3,6 +3,7 @@ using MusicStoreWcfRestService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,11 +33,15 @@ namespace MusicStoreWcfRestByWindows
             {
                 host.Open();
             });
+            Console.WriteLine("已经打开所有WebServiceHost");
+            //ServiceHost normalhost = new ServiceHost(typeof(EmployeesService));
+            //normalhost.Open();
             Console.ReadLine();
             hosts.ForEach(host =>
             {
                 host.Close();
             });
+            //normalhost.Close();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using MusicStoreBIL.Daos;
-using MusicStoreDAL.Models;
 using MusicStoreRestWebApi.ViewModels;
+using MusicStoreWcfRestContract;
 using System;
 using System.Collections.Generic;
 using System.Linq;

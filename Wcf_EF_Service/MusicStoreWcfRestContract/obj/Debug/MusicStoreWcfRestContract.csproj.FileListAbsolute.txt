@@ -1,11 +1,8 @@
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\MusicStoreWcfRestContract.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\MusicStoreWcfRestContract.pdb
-E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\obj\Debug\MusicStoreWcfRestContract.csprojResolveAssemblyReference.cache
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\obj\Debug\MusicStoreWcfRestContract.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\obj\Debug\MusicStoreWcfRestContract.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\EntityFramework.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\EntityFramework.SqlServer.dll
-E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\MusicStoreDAL.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\EntityFramework.xml
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\EntityFramework.SqlServer.xml
-E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestContract\bin\Debug\MusicStoreDAL.pdb

@@ -41,6 +41,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MusicStoreBIL">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreBIL.dll</HintPath>
+    </Reference>
+    <Reference Include="MusicStoreDAL">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="MusicStoreUtils">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="MusicStoreWcfRestContract">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreWcfRestContract.dll</HintPath>
+    </Reference>
+    <Reference Include="MusicStoreWcfRestService">
+      <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreWcfRestService.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -165,40 +180,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Daos\AlbumDao.cs" />
-    <Compile Include="Daos\ArtistDao.cs" />
-    <Compile Include="Daos\EntityBaseDao.cs" />
-    <Compile Include="Daos\GenreDao.cs" />
-    <Compile Include="Daos\OrderDao.cs" />
-    <Compile Include="Daos\OrderDetailDao.cs" />
-    <Compile Include="EntityContext\MusicStoreContext.cs" />
-    <Compile Include="EntityContext\SampleData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Album.cs" />
-    <Compile Include="Models\Artist.cs" />
-    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\OrderDetail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\WCFAlbumService.svc.cs">
-      <DependentUpon>WCFAlbumService.svc</DependentUpon>
-    </Compile>
-    <Compile Include="Services\WCFArtsitService.svc.cs">
-      <DependentUpon>WCFArtsitService.svc</DependentUpon>
-    </Compile>
-    <Compile Include="Services\WCFGenreService.svc.cs">
-      <DependentUpon>WCFGenreService.svc</DependentUpon>
-    </Compile>
-    <Compile Include="Services\WCFOrderDetailService.svc.cs">
-      <DependentUpon>WCFOrderDetailService.svc</DependentUpon>
-    </Compile>
-    <Compile Include="Services\WCFOrderService.svc.cs">
-      <DependentUpon>WCFOrderService.svc</DependentUpon>
-    </Compile>
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -221,11 +208,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Services\WCFAlbumService.svc" />
-    <Content Include="Services\WCFArtsitService.svc" />
-    <Content Include="Services\WCFGenreService.svc" />
-    <Content Include="Services\WCFOrderDetailService.svc" />
-    <Content Include="Services\WCFOrderService.svc" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -254,6 +236,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
