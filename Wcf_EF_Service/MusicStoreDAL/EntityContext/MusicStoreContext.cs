@@ -22,7 +22,7 @@ namespace MusicStoreDAL.EntityContext
         public MusicStoreContext()
             : base("musicdb")
         {
-            //取消代理类型，否则序列化会出问题
+            //取消代理类型，这样就失去了延迟加载的功能，否则序列化会出问题
             this.Configuration.ProxyCreationEnabled = false;
         }
 
