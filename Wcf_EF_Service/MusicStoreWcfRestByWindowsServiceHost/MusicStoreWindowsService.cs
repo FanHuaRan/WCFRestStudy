@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace MusicStoreWcfRestByWindowsServiceHost
 {
+    /// <summary>
+    /// ServiceBase为windows服务基类
+    /// </summary>
     public class MusicStoreWindowsService : ServiceBase
     {
         public List<WebServiceHost> hosts = new List<WebServiceHost>()

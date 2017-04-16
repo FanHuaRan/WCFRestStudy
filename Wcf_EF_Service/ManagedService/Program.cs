@@ -21,6 +21,7 @@ namespace BQKJServer.ServerGuid
         static void Main(string[] args)
         {     
             #region Windows 服务启动
+           
             if (!Environment.UserInteractive || !AppDomain.CurrentDomain.FriendlyName.Equals(Path.GetFileName(Assembly.GetEntryAssembly().CodeBase)))
             {
                 RunAsService();

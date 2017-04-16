@@ -1,0 +1,2 @@
+MusicStoreWcfRestByWindowsServiceSelfInstall -i
+pause

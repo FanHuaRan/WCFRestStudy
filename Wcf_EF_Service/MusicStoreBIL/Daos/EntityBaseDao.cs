@@ -10,7 +10,7 @@ using MusicStoreDAL.EntityContext;
 namespace MusicStoreBIL.Daos
 {
     /// <summary>
-    /// 实体访问泛型基类
+    /// 使用EF的实体访问泛型基类
     /// 2016/12/26 fhr
     /// </summary>
     public class EntityBaseDao<T> :IDisposable where T : class
