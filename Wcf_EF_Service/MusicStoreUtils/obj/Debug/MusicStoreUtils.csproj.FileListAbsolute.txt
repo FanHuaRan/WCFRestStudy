@@ -2,3 +2,4 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreUtils\bin\Debug\MusicStor
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreUtils\bin\Debug\MusicStoreUtils.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreUtils\obj\Debug\MusicStoreUtils.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreUtils\obj\Debug\MusicStoreUtils.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreUtils\obj\Debug\MusicStoreUtils.csprojResolveAssemblyReference.cache

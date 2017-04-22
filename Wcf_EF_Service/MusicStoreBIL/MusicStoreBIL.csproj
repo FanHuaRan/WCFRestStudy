@@ -39,6 +39,9 @@
     <Reference Include="MusicStoreDAL">
       <HintPath>..\MusicStoreDAL\bin\Debug\MusicStoreDAL.dll</HintPath>
     </Reference>
+    <Reference Include="MusicStoreUtils">
+      <HintPath>..\MusicStoreUtils\bin\Debug\MusicStoreUtils.dll</HintPath>
+    </Reference>
     <Reference Include="MusicStoreWcfRestContract">
       <HintPath>..\MusicStoreWcfRestContract\bin\Debug\MusicStoreWcfRestContract.dll</HintPath>
     </Reference>
@@ -56,6 +59,7 @@
     <Compile Include="Daos\ArtistDao.cs" />
     <Compile Include="Daos\EntityBaseDao.cs" />
     <Compile Include="Daos\GenreDao.cs" />
+    <Compile Include="Daos\IEntityBaseDao.cs" />
     <Compile Include="Daos\OrderDao.cs" />
     <Compile Include="Daos\OrderDetailDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
