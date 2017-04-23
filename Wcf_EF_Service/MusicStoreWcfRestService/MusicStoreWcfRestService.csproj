@@ -66,6 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmployeesService.cs" />
+    <Compile Include="EnableCache\EmployeesService.cs" />
+    <Compile Include="EnableCache\WCFAlbumService.cs" />
+    <Compile Include="EnableCache\WCFArtistService.cs" />
+    <Compile Include="EnableCache\WCFGenreService.cs" />
+    <Compile Include="EnableCache\WCFOrderDetailService.cs" />
+    <Compile Include="EnableCache\WCFOrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WCFAlbumService.cs" />
     <Compile Include="WCFArtistService.cs" />

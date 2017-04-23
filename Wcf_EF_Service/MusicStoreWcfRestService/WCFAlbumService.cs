@@ -39,7 +39,7 @@ namespace MusicStoreWcfRestService
         public Album FindOne(string id)
         {
             var id2 = int.Parse(id);
-            Album album = albumDao.FindById(id2);
+            var album = albumDao.FindById(id2);
             if (album == null)
             {
                 WebOperationContext.Current.OutgoingResponse.StatusCode = HttpStatusCode.NotFound;
@@ -79,7 +79,7 @@ namespace MusicStoreWcfRestService
 
         public IEnumerable<Album> search(int genreId, string title, decimal minPrice =-1, decimal maxPrice=-1)
         {
-            List<Func<Album, bool>> conditions = new List<Func<Album, bool>>();
+            var conditions = new List<Func<Album, bool>>();
             if (genreId != 0)
             {
                 conditions.Add(album => album.GenreId == genreId);
