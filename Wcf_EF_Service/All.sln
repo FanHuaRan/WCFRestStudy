@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestBySimpleWe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestByWindowsServiceSelfInstall", "MusicStoreWcfRestByWindowsServiceSelfInstall\MusicStoreWcfRestByWindowsServiceSelfInstall.csproj", "{57008ABA-3D0A-400D-A286-4155057A217C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWcfRestByIIS", "MusicStoreWcfRestByIIS\MusicStoreWcfRestByIIS.csproj", "{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -268,6 +270,16 @@ Global
 		{57008ABA-3D0A-400D-A286-4155057A217C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{57008ABA-3D0A-400D-A286-4155057A217C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{57008ABA-3D0A-400D-A286-4155057A217C}.Release|x86.ActiveCfg = Release|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -290,5 +302,6 @@ Global
 		{2DC89F2B-F826-4A42-9218-573455E4EC89} = {001E3DEF-7918-459B-A539-1972492FE895}
 		{E13B3769-AFDA-4EFD-9075-570A3FC3FF31} = {001E3DEF-7918-459B-A539-1972492FE895}
 		{57008ABA-3D0A-400D-A286-4155057A217C} = {001E3DEF-7918-459B-A539-1972492FE895}
+		{B3C6BB04-86A6-449F-8F5D-8DA5B4CA213B} = {001E3DEF-7918-459B-A539-1972492FE895}
 	EndGlobalSection
 EndGlobal

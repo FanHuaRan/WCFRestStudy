@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e07c23fd-c3b2-489f-a8e2-354921939240" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59672/WCFAlbumService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFAlbumService.wsdl" MetadataType="Wsdl" ID="28cd5a8e-9e9c-4eb8-b6ca-aa772429dede" SourceId="1" SourceUrl="http://localhost:59672/WCFAlbumService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="WCFAlbumService.xsd" MetadataType="Schema" ID="a61b3fcc-5923-400d-808f-55c3927f1a46" SourceId="1" SourceUrl="http://localhost:59672/WCFAlbumService.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCFAlbumService1.wsdl" MetadataType="Wsdl" ID="32e22fa8-5c1a-4455-a342-bb6e895e3748" SourceId="1" SourceUrl="http://localhost:59672/WCFAlbumService.svc?wsdl" />
+    <MetadataFile FileName="WCFAlbumService.disco" MetadataType="Disco" ID="fc3135f4-c8a0-4fa7-8ccb-04db85a7e50b" SourceId="1" SourceUrl="http://localhost:59672/WCFAlbumService.svc?disco" />
+    <MetadataFile FileName="WCFAlbumService1.xsd" MetadataType="Schema" ID="7714d848-e79e-4b60-b973-be9efbb46347" SourceId="1" SourceUrl="http://localhost:59672/WCFAlbumService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

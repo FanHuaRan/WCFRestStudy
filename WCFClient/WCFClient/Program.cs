@@ -6,11 +6,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
+using WCFClient.MusicStoreReference;
 
 namespace WCFClient
 {
     class Program
     {
+        IWCFAlbumService albumService = new WCFAlbumServiceClient();
         static void Main(string[] args)
         {
             testWCFCache();
