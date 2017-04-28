@@ -15,6 +15,8 @@ namespace MusicStoreWcfRestBySimpleWebHost
 
         protected void Application_Start(object sender, EventArgs e)
         {
+            ///////服务直接在Web中的RouteTable进行路由注册即可完成服务寄宿
+
             ////带缓存的服务
             RouteTable.Routes.Add(new ServiceRoute("Employees", new WebServiceHostFactory(), typeof(MusicStoreWcfRestService.EnableCache.EmployeesService)));//注意：服务类型是实现服务的类。
             RouteTable.Routes.Add(new ServiceRoute("Albums", new WebServiceHostFactory(), typeof(MusicStoreWcfRestService.EnableCache.WCFAlbumService)));//注意：服务类型是实现服务的类。

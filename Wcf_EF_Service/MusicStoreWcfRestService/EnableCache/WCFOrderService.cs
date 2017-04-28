@@ -12,6 +12,10 @@ using System.ServiceModel.Web;
 using System.Net;
 namespace MusicStoreWcfRestService.EnableCache
 {
+    /// <summary>
+    /// 带输出缓存的订单服务实现
+    /// 2017/04/22 fhr
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class WCFOrderService : cache.IWCFOrderService

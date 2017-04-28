@@ -1,0 +1,4 @@
+﻿<!--svc文件的功能就类似于我们在web托管中注册路由一样-->
+<!--Service是服务实现类-->
+<!--CodeBehind是服务类文件的相对路径-->
+<%@ ServiceHost Language="C#" Debug="true" Service="MusicStoreWcfRestService.EnableCache.WCFArtistService" CodeBehind="MusicStoreWcfRestService.EnableCache.WCFArtistService.cs" %>

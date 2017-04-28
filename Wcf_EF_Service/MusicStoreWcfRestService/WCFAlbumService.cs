@@ -14,6 +14,12 @@ using System.Threading.Tasks;
 using System.Web.Http.ModelBinding;
 namespace MusicStoreWcfRestService
 {
+    /// <summary>
+    /// 专辑服务实现
+    /// 2017/04/05 fhr
+    /// AspNetCompatibilityRequirements特性表示服务是否与ASP.NET兼容，兼容方可使用相关web特性
+    /// ServiceBehavior为服务行为特性，这儿指定服务为多线程模式、单例
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class WCFAlbumService : IWCFAlbumService

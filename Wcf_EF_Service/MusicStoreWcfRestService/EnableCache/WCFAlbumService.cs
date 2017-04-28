@@ -14,6 +14,11 @@ using System.Threading.Tasks;
 using System.Web.Http.ModelBinding;
 namespace MusicStoreWcfRestService.EnableCache
 {
+    /// <summary>
+    /// 带输出缓存的专辑服务实现
+    /// 使用了代理模式
+    /// 2017/04/22 fhr
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class WCFAlbumService : cache.IWCFAlbumService

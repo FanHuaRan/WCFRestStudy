@@ -81,6 +81,12 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EnableCache\EmployeesService.svc" />
+    <Content Include="EnableCache\WCFAlbumService.svc" />
+    <Content Include="EnableCache\WCFArtistService.svc" />
+    <Content Include="EnableCache\WCFGenreService.svc" />
+    <Content Include="EnableCache\WCFOrderDetailService.svc" />
+    <Content Include="EnableCache\WCFOrderService.svc" />
     <Content Include="WCFAlbumService.svc" />
     <Content Include="WCFArtistService.svc" />
     <Content Include="WCFGenreService.svc" />

@@ -9,6 +9,10 @@ using MusicStoreWcfRestContract;
 
 namespace MusicStoreDAL.EntityContext
 {
+    /// <summary>
+    /// 数据源
+    /// 2017/04/01 fhr
+    /// </summary>
     public class SampleData : DropCreateDatabaseIfModelChanges<MusicStoreContext>
     {
         protected override void Seed(MusicStoreContext context)

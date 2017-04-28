@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace MusicStoreUtils
 {
     /// <summary>
-    /// 反射处理 
+    /// 反射处理辅助类
     /// 2016/12/31 fhr
     /// </summary>
    public class ObjectRefletUtil
@@ -42,7 +42,7 @@ namespace MusicStoreUtils
         /// <returns></returns>
         public static object GetMainKeyValue<T>(T obj)
         {
-            PropertyInfo property = GetMainKeyProperty(typeof(T));
+            var property = GetMainKeyProperty(typeof(T));
             return property.GetValue(obj, null);
         }
         /// <summary>
@@ -53,7 +53,7 @@ namespace MusicStoreUtils
         /// <returns></returns>
         public static object GetMainKeyValue(object obj)
         {
-            PropertyInfo property = GetMainKeyProperty(obj.GetType());
+            var property = GetMainKeyProperty(obj.GetType());
             return property.GetValue(obj, null);
         }
         /// <summary>
@@ -66,9 +66,9 @@ namespace MusicStoreUtils
             var keyPropertys = type.GetProperties().Where(p => p.GetCustomAttributes(typeof(PrimaryKeyAttribute), true).Any());
             if (keyPropertys.Count() == 0)
             {
-                throw new Exception(type.ToString() + "无PrimaryKeyAttribute注解属性");
+                throw new Exception(type.ToString() + "无PrimaryKeyAttribute特性");
             }
-            PropertyInfo property = keyPropertys.First() as PropertyInfo;
+            var property = keyPropertys.First() as PropertyInfo;
             return property;
         }
     }

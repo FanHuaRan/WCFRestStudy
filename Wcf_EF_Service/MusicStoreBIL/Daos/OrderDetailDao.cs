@@ -6,6 +6,9 @@ using System.Web;
 
 namespace MusicStoreBIL.Daos
 {
+    /// <summary>
+    /// 订单条目DAO
+    /// </summary>
     public class OrderDetailDao:EntityBaseDao<OrderDetail>
     {
         public override OrderDetail Update(OrderDetail obj)

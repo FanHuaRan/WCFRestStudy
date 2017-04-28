@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace MusicStoreWcfRestContract
 {
+    /// <summary>
+    /// 雇员实体
+    /// 作者：cnblogs->artech
+    /// </summary>
     [DataContract(Namespace = "http://www.artech.com/")]
     public class Employee
     {

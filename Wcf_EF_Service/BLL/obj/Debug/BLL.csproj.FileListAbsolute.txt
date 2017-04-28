@@ -38,3 +38,13 @@ E:\Programing\c#\Wcf_EF_Service\BLL\bin\Debug\zh-Hans\EntityFramework.resources.
 E:\Programing\c#\Wcf_EF_Service\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 E:\Programing\c#\Wcf_EF_Service\BLL\obj\Debug\BLL.dll
 E:\Programing\c#\Wcf_EF_Service\BLL\obj\Debug\BLL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\bin\Debug\BLL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\bin\Debug\BLL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\bin\Debug\DAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\bin\Debug\EntityFramework.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\bin\Debug\DAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\bin\Debug\EntityFramework.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\obj\Debug\BLL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\BLL\obj\Debug\BLL.pdb

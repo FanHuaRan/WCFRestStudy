@@ -13,8 +13,10 @@ using System.Text;
 
 namespace MusicStoreWcfRestService.EnableCache
 {
-    ///这儿的是带缓存的服务实现，使用了代理委托的设计模式
-    // 注意: 使用“重构”菜单上的“重命名”命令，可以同时更改代码和配置文件中的类名“EmployeesService”。
+    /// <summary>
+    /// 带输出缓存的雇员服务实现
+    /// 2017/04/22 fhr
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class EmployeesService : cache.IEmployeesService

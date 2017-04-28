@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace MusicStoreUtils
 {
+    /// <summary>
+    /// 数据校验辅助类
+    /// 2017/04/01
+    /// </summary>
     public class EntityValidatorUtil
     {
         public static bool Validate<T>(T entity)

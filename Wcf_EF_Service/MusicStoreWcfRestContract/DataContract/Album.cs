@@ -9,7 +9,12 @@ using System.Runtime.Serialization;
 
 namespace MusicStoreWcfRestContract
 {
-    //UI不准许绑定AlbumId属性
+    /// <summary>
+    /// 专辑实体
+    /// 2017/04/01 fhr
+    /// Bind特性表示在ASP.NET MVC中让UI不准许绑定AlbumId属性
+    /// DataContract是数据契约特性，表示我们的Album对象可以实例化，NameSpace是其XML命名空间
+    /// </summary>
     [Bind(Exclude = "AlbumId")]
     [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class Album
@@ -40,7 +45,8 @@ namespace MusicStoreWcfRestContract
         [DisplayName("Album Art URL")]
         [StringLength(1024)]
         public string AlbumArtUrl { get; set; }
-        //IgnoreDataMember标识该属性不参与序列化，和什么都不加一样的效果
+        //IgnoreDataMember标识该属性不参与序列化
+        //和不加DataMember是一样的效果
         [IgnoreDataMember]
         public virtual Genre Genre { get; set; }
         [IgnoreDataMember]

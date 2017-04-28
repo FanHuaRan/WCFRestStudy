@@ -12,6 +12,10 @@ using MusicStoreBIL.Daos;
 using System.Net;
 namespace MusicStoreWcfRestService
 {
+    /// <summary>
+    /// 订单服务实现
+    /// 2017/04/05 fhr
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class WCFOrderService : IWCFOrderService

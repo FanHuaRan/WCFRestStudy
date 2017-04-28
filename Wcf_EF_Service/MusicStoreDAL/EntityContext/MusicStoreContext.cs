@@ -8,6 +8,10 @@ using System.Web;
 
 namespace MusicStoreDAL.EntityContext
 {
+    /// <summary>
+    /// EF数据上下文
+    /// 2017/04/01 fhr
+    /// </summary>
     public class MusicStoreContext:DbContext
     {
         public DbSet<Album> Albums { get; set; }
@@ -26,7 +30,7 @@ namespace MusicStoreDAL.EntityContext
             this.Configuration.ProxyCreationEnabled = false;
         }
 
-        //去掉表名复数
+        //重写OnModelCreating去掉表名复数
         protected override void OnModelCreating(DbModelBuilder modelbuilder)
         {
             modelbuilder.Conventions.Remove<PluralizingTableNameConvention>();

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace MusicStoreWcfRestByWindowsServiceHost
 {
+    ///服务安装工具
     //允许 Windows 服务由 Installutil.exe 工具安装。
     [RunInstaller(true)]
     public class ProjectInstaller : Installer

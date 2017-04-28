@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
@@ -9,7 +10,10 @@ using System.Text;
 
 namespace MusicStoreWcfRestContract.EnableCacheServiceContract
 {
-    // 注意: 使用“重构”菜单上的“重命名”命令，可以同时更改代码和配置文件中的接口名“IEmployeesService”。
+    /// <summary>
+    /// 带输出缓存的雇员服务契约
+    /// 2017/04/20 fhr
+    /// </summary>
     [ServiceContract]
     public interface IEmployeesService
     {
@@ -21,23 +25,28 @@ namespace MusicStoreWcfRestContract.EnableCacheServiceContract
         [OperationContract]
         [WebGet(UriTemplate = "all")]
         [AspNetCacheProfile("default")]
+        [Description("获取所有员工列表")]
         IEnumerable<Employee> GetAll();
 
         [OperationContract]
         [WebGet(UriTemplate = "{id}")]
         [AspNetCacheProfile("default")]
+        [Description("获取指定ID的员工")]
         Employee Get(string id);
 
         [OperationContract]
         [WebInvoke(UriTemplate = "/", Method = "POST")]
+        [Description("创建一个新的员工")]
         void Create(Employee employee);
 
         [OperationContract]
         [WebInvoke(UriTemplate = "/", Method = "PUT")]
+        [Description("修改现有员工信息")]
         void Update(Employee employee);
 
         [OperationContract]
         [WebInvoke(UriTemplate = "{id}", Method = "DELETE")]
+        [Description("删除指定ID的员工")]
         void Delete(string id);
     }
 }

@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 namespace MusicStoreWcfRestByWindowsServiceHost
 {
     /// <summary>
+    /// MusicStore的Windows服务
+    /// 2017/04/28 fhr
     /// ServiceBase为windows服务基类
     /// </summary>
     public class MusicStoreWindowsService : ServiceBase

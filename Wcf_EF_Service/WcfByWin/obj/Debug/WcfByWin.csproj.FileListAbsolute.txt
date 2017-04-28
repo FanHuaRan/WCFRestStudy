@@ -24,3 +24,16 @@ E:\Programing\c#\Wcf_EF_Service\WcfByWin\bin\Debug\zh-Hans\EntityFramework.resou
 E:\Programing\c#\Wcf_EF_Service\WcfByWin\obj\Debug\WcfByWin.csprojResolveAssemblyReference.cache
 E:\Programing\c#\Wcf_EF_Service\WcfByWin\obj\Debug\WcfByWin.dll
 E:\Programing\c#\Wcf_EF_Service\WcfByWin\obj\Debug\WcfByWin.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\WcfByWin.dll.config
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\WcfByWin.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\WcfByWin.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\BLL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\DAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\EntityFramework.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\BLL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\DAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\EntityFramework.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\obj\Debug\WcfByWin.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\obj\Debug\WcfByWin.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\WcfByWin\obj\Debug\WcfByWin.pdb

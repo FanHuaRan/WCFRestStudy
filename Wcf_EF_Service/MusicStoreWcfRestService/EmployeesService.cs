@@ -11,7 +11,10 @@ using System.Text;
 
 namespace MusicStoreWcfRestService
 {
-    // 注意: 使用“重构”菜单上的“重命名”命令，可以同时更改代码和配置文件中的类名“EmployeesService”。
+    /// <summary>
+    /// 雇员服务实现
+    /// 作者：cnblogs->artech
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class EmployeesService : IEmployeesService

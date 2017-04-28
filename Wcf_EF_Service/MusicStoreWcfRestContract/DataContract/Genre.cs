@@ -4,9 +4,15 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Web;
+using System.Web.Mvc;
 
 namespace MusicStoreWcfRestContract
 {
+    /// <summary>
+    /// 流派实体
+    /// 2017/04/01 fhr
+    /// </summary>
+    [Bind(Exclude = "GenreId")]
     [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class Genre
     {

@@ -25,3 +25,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHo
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.csprojResolveAssemblyReference.cache
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.exe
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.ProjectInstaller.resources
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.csproj.GenerateResource.Cache

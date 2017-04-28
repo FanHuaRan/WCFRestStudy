@@ -10,10 +10,10 @@ using System.Web.Mvc;
 namespace MusicStoreWcfRestContract
 {
     /// <summary>
-    /// 订单
+    /// 订单实体
+    /// 2017/04/01 fhr
     /// </summary>
-    /// 
-    [Bind(Exclude = "OrderId")]
+    [Bind(Exclude = "GenreId")]
     [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class Order
     {

@@ -12,6 +12,10 @@ using System.Net;
 using MusicStoreUtils;
 namespace MusicStoreWcfRestService
 {
+    /// <summary>
+    /// 艺术家服务实现
+    /// 2017/04/05 fhr
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class WCFArtistService : IWCFArtistService

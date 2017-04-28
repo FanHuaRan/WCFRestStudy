@@ -32,3 +32,12 @@ E:\Programing\c#\Wcf_EF_Service\DAL\bin\Debug\zh-Hans\EntityFramework.resources.
 E:\Programing\c#\Wcf_EF_Service\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 E:\Programing\c#\Wcf_EF_Service\DAL\obj\Debug\DAL.dll
 E:\Programing\c#\Wcf_EF_Service\DAL\obj\Debug\DAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\bin\Debug\DAL.dll.config
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\bin\Debug\DAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\bin\Debug\DAL.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\bin\Debug\EntityFramework.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\bin\Debug\EntityFramework.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\obj\Debug\DAL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\DAL\obj\Debug\DAL.pdb

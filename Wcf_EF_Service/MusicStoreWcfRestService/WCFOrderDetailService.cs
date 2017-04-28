@@ -12,6 +12,9 @@ using MusicStoreBIL.Daos;
 using MusicStoreUtils;
 namespace MusicStoreWcfRestService
 {
+    /// <summary>
+    /// 订单条目服务实现
+    /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class WCFOrderDetailService : IWCFOrderDetailService

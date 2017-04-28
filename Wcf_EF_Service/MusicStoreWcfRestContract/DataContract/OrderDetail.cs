@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Web.Mvc;
 
 namespace MusicStoreWcfRestContract
 {
     /// <summary>
-    /// 订单细节 对应一种专辑
+    /// 订单条目 
+    /// 2017/04/01 fhr
     /// </summary>
+    [Bind(Exclude = "GenreId")]
     [DataContract(Namespace = "www.ranran.MusicStoreWcfRest")]
     public class OrderDetail
     {
