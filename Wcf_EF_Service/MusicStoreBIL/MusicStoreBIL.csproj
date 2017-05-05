@@ -36,6 +36,9 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\MusicStoreDAL\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="MusicStoreDAL">
       <HintPath>..\MusicStoreDAL\bin\Debug\MusicStoreDAL.dll</HintPath>
     </Reference>
@@ -63,6 +66,14 @@
     <Compile Include="Daos\OrderDao.cs" />
     <Compile Include="Daos\OrderDetailDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Impl\XmlUserServiceClass.cs" />
+    <Compile Include="Services\IUserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -65,7 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmployeesService.cs" />
+    <Compile Include="NoCache\EmployeesService.cs" />
     <Compile Include="EnableCache\EmployeesService.cs" />
     <Compile Include="EnableCache\WCFAlbumService.cs" />
     <Compile Include="EnableCache\WCFArtistService.cs" />
@@ -73,11 +73,17 @@
     <Compile Include="EnableCache\WCFOrderDetailService.cs" />
     <Compile Include="EnableCache\WCFOrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WCFAlbumService.cs" />
-    <Compile Include="WCFArtistService.cs" />
-    <Compile Include="WCFGenreService.cs" />
-    <Compile Include="WCFOrderDetailService.cs" />
-    <Compile Include="WCFOrderService.cs" />
+    <Compile Include="NoCache\WCFAlbumService.cs" />
+    <Compile Include="NoCache\WCFArtistService.cs" />
+    <Compile Include="NoCache\WCFGenreService.cs" />
+    <Compile Include="NoCache\WCFOrderDetailService.cs" />
+    <Compile Include="NoCache\WCFOrderService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SecureAuth\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

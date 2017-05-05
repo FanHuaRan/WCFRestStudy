@@ -52,3 +52,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStore
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreWcfRestContract.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreUtils.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\MusicStoreWcfRestContract.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestWebApi\bin\log4net.xml

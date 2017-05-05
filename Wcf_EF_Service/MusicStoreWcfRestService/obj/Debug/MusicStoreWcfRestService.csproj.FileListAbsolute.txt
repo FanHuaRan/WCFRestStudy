@@ -22,3 +22,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\System.Net.Http.Formatting.xml
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\zh-Hans\System.Web.Http.resources.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\log4net.xml

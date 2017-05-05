@@ -18,3 +18,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestBySimpleWebHost\bi
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestBySimpleWebHost\obj\Debug\MusicStoreWcfRestBySimpleWebHost.csprojResolveAssemblyReference.cache
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestBySimpleWebHost\obj\Debug\MusicStoreWcfRestBySimpleWebHost.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestBySimpleWebHost\obj\Debug\MusicStoreWcfRestBySimpleWebHost.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestBySimpleWebHost\bin\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestBySimpleWebHost\bin\log4net.xml

@@ -27,3 +27,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHo
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.ProjectInstaller.resources
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\obj\Debug\MusicStoreWcfRestByWindowsServiceHost.csproj.GenerateResource.Cache
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceHost\bin\Debug\log4net.xml

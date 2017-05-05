@@ -21,3 +21,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceSe
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceSelfInstall\bin\Debug\install.bat
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceSelfInstall\bin\Debug\runserver.bat
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceSelfInstall\bin\Debug\uninstall.bat
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceSelfInstall\bin\Debug\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindowsServiceSelfInstall\bin\Debug\log4net.xml

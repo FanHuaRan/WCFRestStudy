@@ -87,6 +87,9 @@
     <Content Include="EnableCache\WCFGenreService.svc" />
     <Content Include="EnableCache\WCFOrderDetailService.svc" />
     <Content Include="EnableCache\WCFOrderService.svc" />
+    <Content Include="musicstore-users.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="WCFAlbumService.svc" />
     <Content Include="WCFArtistService.svc" />
     <Content Include="WCFGenreService.svc" />

@@ -156,3 +156,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicSt
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreUtils.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreWcfRestContract.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\MusicStoreWcfRestService.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreRestByWebHost\bin\log4net.xml

@@ -18,3 +18,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debu
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreUtils.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreBIL.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\MusicStoreUtils.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestByWindows\bin\Debug\log4net.xml
