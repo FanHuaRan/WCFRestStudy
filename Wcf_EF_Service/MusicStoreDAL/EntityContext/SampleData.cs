@@ -6,6 +6,7 @@ using System.Data.Entity;
 using System.Data.Entity.Validation;
 using System.Diagnostics;
 using MusicStoreWcfRestContract;
+using log4net;
 
 namespace MusicStoreDAL.EntityContext
 {
@@ -15,6 +16,7 @@ namespace MusicStoreDAL.EntityContext
     /// </summary>
     public class SampleData : DropCreateDatabaseIfModelChanges<MusicStoreContext>
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(SampleData));
         protected override void Seed(MusicStoreContext context)
         {
             try
@@ -436,6 +438,7 @@ namespace MusicStoreDAL.EntityContext
                 new Album { Title = "Ao Vivo [IMPORT]", Genre = genres.Single(g => g.Name == "Latin"), Price = 8.99M, Artist = artists.Single(a => a.Name == "Zeca Pagodinho"), AlbumArtUrl = "/Content/Images/placeholder.gif" },
             }.ForEach(a => context.Albums.Add(a));
                 context.SaveChanges();
+                log.Info("数据库初始化成功");
             }
             catch (DbEntityValidationException e)
             {
@@ -449,6 +452,7 @@ namespace MusicStoreDAL.EntityContext
                             ve.PropertyName, ve.ErrorMessage);
                     }
                 }
+                log.Error("数据库初始化错误", e);
                 throw;
             }
         }

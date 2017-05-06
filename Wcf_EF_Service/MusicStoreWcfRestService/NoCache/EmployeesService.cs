@@ -1,4 +1,5 @@
-﻿using MusicStoreWcfRestContract;
+﻿using log4net;
+using MusicStoreWcfRestContract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,8 @@ namespace MusicStoreWcfRestService
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class EmployeesService : IEmployeesService
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(EmployeesService));
+
         private static IList<Employee> employees = new List<Employee>
         {
             new Employee{ Id = "001", Name="张三", Department="开发部", Grade = "G7"},    
