@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<users>
-	<user username="Admin" password="Admin" role="Admin"/>
-	<user username="Tom" password="123" role="User"/>
-</users>
