@@ -1,6 +1,7 @@
 ﻿using log4net;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,9 +15,12 @@ namespace MusicStoreBIL.Services.Impl
     /// </summary>
     public class XmlUserServiceClass:IUserService
     {
-        private object locker=new object();
-        private static readonly string XMLUSERFILENAME = "musicstore-users.xml";
         private static readonly ILog log = LogManager.GetLogger(typeof(XmlUserServiceClass));
+       
+        private object locker=new object();
+      
+        protected string userFileName = "musicstore-users.xml";
+
         public  string FindUserRole(string userName)
         {
             lock (locker)
@@ -79,7 +83,7 @@ namespace MusicStoreBIL.Services.Impl
                     var rootNode = document.SelectSingleNode("users");
                     var userElement = createUserElement(userName, password, role, document);
                     rootNode.AppendChild(userElement);
-                    document.Save(XMLUSERFILENAME);
+                    document.Save(userFileName);
                     return true;
                 }
                 catch (Exception e)
@@ -90,7 +94,7 @@ namespace MusicStoreBIL.Services.Impl
             }
         }
 
-        private static XmlElement createUserElement(string userName, string password, string role, XmlDocument document)
+        private  XmlElement createUserElement(string userName, string password, string role, XmlDocument document)
         {
             var userElement = document.CreateElement("user");
             var nameAttri = document.CreateAttribute("username");
@@ -104,10 +108,10 @@ namespace MusicStoreBIL.Services.Impl
             userElement.Attributes.Append(roleAttri);
             return userElement;
         }
-        private XmlDocument createXmlDocument()
+        private  XmlDocument createXmlDocument()
         {
             var docMent = new XmlDocument();
-            docMent.Load(XMLUSERFILENAME);
+            docMent.Load(userFileName);
             return docMent;
         }
     }

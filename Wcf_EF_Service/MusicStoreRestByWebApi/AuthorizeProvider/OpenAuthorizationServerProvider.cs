@@ -17,9 +17,10 @@ namespace MusicStoreRestByWebApi.AuthorizeProvider
     public class OpenAuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
         //用户服务组件 自定义
-        private IUserService userService = new XmlUserServiceClass();
+        private IUserService userService = new WebApiXmlUserServiceClass();
+
         //客户端服务组件 自定义
-        private IClientService clientServce = new XmlClientServiceClass();
+        private IClientService clientServce = new WebApiXmlClientServiceClass();
 
         /// <summary>
         /// 验证 client 信息
@@ -34,7 +35,7 @@ namespace MusicStoreRestByWebApi.AuthorizeProvider
                 context.TryGetFormCredentials(out clientId, out clientSecret);
             }
             //验证client是否存在
-            if (string.IsNullOrEmpty(clientId)||clientSecret != clientServce.FindClientSecret(clientId))
+            if (string.IsNullOrEmpty(clientId) || clientSecret != clientServce.FindClientSecret(clientId))
             {
                 context.SetError("invalid_client", "client is not valid");
                 return;
@@ -49,6 +50,8 @@ namespace MusicStoreRestByWebApi.AuthorizeProvider
         /// </summary>
         public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
         {
+            //令牌中间件提供者允许CORS
+            context.OwinContext.Response.Headers.Add("Access-Control-Allow-Origin", new[] { "*" });
             //验证用户名和密码
             if (string.IsNullOrEmpty(context.UserName))
             {

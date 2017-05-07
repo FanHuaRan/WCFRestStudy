@@ -14,9 +14,9 @@ namespace MusicStoreBIL.Services.Impl
     /// </summary>
     public class XmlClientServiceClass:IClientService
     {
-        private object locker = new object();
-        private static readonly string XMLClIENTFILENAME = "musicstore-clients.xml";
         private static readonly ILog log = LogManager.GetLogger(typeof(XmlClientServiceClass));
+        private object locker = new object();
+        protected string xmlClientFileName = "musicstore-clients.xml";
         public string FindClientSecret(string clientId)
         {
             lock (locker)
@@ -56,7 +56,7 @@ namespace MusicStoreBIL.Services.Impl
                     var rootNode = document.SelectSingleNode("clients");
                     var userElement = createClientElement(clientId, clientSecret, document);
                     rootNode.AppendChild(userElement);
-                    document.Save(XMLClIENTFILENAME);
+                    document.Save(xmlClientFileName);
                     return true;
                 }
                 catch (Exception e)
@@ -66,7 +66,7 @@ namespace MusicStoreBIL.Services.Impl
                 }
             }
         }
-        private static XmlElement createClientElement(string clientId, string clientSecret,XmlDocument document)
+        private XmlElement createClientElement(string clientId, string clientSecret,XmlDocument document)
         {
             var userElement = document.CreateElement("client");
             var cIdAttri = document.CreateAttribute("clientId");
@@ -80,7 +80,7 @@ namespace MusicStoreBIL.Services.Impl
         private XmlDocument createXmlDocument()
         {
             var docMent = new XmlDocument();
-            docMent.Load(XMLClIENTFILENAME);
+            docMent.Load(xmlClientFileName);
             return docMent;
         }
     }

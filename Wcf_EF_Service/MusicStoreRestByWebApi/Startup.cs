@@ -6,6 +6,9 @@ using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Microsoft.Owin.Security;
 using MusicStoreRestByWebApi.AuthorizeProvider;
+using System.Web.Mvc;
+using System.Web.Routing;
+using System.Web.Optimization;
 [assembly: OwinStartup(typeof(MusicStoreRestByWebApi.Startup))]
 namespace MusicStoreRestByWebApi
 {
@@ -17,6 +20,9 @@ namespace MusicStoreRestByWebApi
             HttpConfiguration config = new HttpConfiguration();
             ConfigureOAuth(app);
             WebApiConfig.Register(config);
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             app.UseWebApi(config);
         }
@@ -33,6 +39,7 @@ namespace MusicStoreRestByWebApi
                 //  RefreshTokenProvider = new () //refresh_token 授权服务
             };
             app.UseOAuthBearerTokens(OAuthOptions); //表示 token_type 使用 bearer 方式
+            app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
         }
     }
 }
