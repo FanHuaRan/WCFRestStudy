@@ -13,6 +13,7 @@ namespace MusicStoreRestWebApi.Controllers
     public class ArtistsController : ApiController
     {
         private ArtistDao artistDao = new ArtistDao();
+        [Authorize]
         // GET api/artists
         [HttpGet]
         public IEnumerable<Artist> Get()

@@ -10,3 +10,5 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\obj\Debug\MusicStoreD
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\obj\Debug\MusicStoreDAL.csprojResolveAssemblyReference.cache
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\MusicStoreWcfRestContract.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\MusicStoreWcfRestContract.pdb
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\log4net.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreDAL\bin\Debug\log4net.xml

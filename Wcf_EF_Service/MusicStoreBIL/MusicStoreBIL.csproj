@@ -66,7 +66,9 @@
     <Compile Include="Daos\OrderDao.cs" />
     <Compile Include="Daos\OrderDetailDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Impl\XmlClientServiceClass.cs" />
     <Compile Include="Services\Impl\XmlUserServiceClass.cs" />
+    <Compile Include="Services\IClientService.cs" />
     <Compile Include="Services\IUserService.cs" />
   </ItemGroup>
   <ItemGroup>
