@@ -1,4 +1,3 @@
-E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreBIL.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreBIL.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\EntityFramework.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\EntityFramework.SqlServer.dll
@@ -7,7 +6,6 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\EntityFrame
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\EntityFramework.SqlServer.xml
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreDAL.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\obj\Debug\MusicStoreBIL.csprojResolveAssemblyReference.cache
-E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\obj\Debug\MusicStoreBIL.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\obj\Debug\MusicStoreBIL.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreWcfRestContract.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreWcfRestContract.pdb
@@ -15,3 +13,7 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreU
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreUtils.pdb
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\log4net.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\log4net.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\musicstore-clients.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\musicstore-users.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\bin\Debug\MusicStoreBIL.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreBIL\obj\Debug\MusicStoreBIL.dll

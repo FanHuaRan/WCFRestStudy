@@ -12,7 +12,7 @@ namespace MusicStoreBIL.Services.Impl
     /// </summary>
     public class WebApiXmlClientServiceClass : XmlClientServiceClass
     {
-        public WebApiXmlClientServiceClass()
+       public WebApiXmlClientServiceClass()
         {
             this.xmlClientFileName = string.Format("{0}\\{1}", HttpRuntime.AppDomainAppPath, xmlClientFileName);
         }

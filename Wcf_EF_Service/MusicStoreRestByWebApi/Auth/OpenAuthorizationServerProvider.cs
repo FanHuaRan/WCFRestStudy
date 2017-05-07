@@ -8,10 +8,12 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace MusicStoreRestByWebApi.AuthorizeProvider
+namespace MusicStoreRestByWebApi.Auth
 {
     /// <summary>
-    /// 授权服务提供器
+    /// 基于密码和客户端授权的OAuth授权服务器
+    /// 这里模仿Spring-Security-OAuth2,同时使用客户端和密码授权
+    /// 实际运行时：先运行ValidateClientAuthentication 后运行GrantResourceOwnerCredentials
     /// 2017/05/07 fhr
     /// </summary>
     public class OpenAuthorizationServerProvider : OAuthAuthorizationServerProvider
@@ -24,6 +26,7 @@ namespace MusicStoreRestByWebApi.AuthorizeProvider
 
         /// <summary>
         /// 验证 client 信息
+        /// 如果此方法不进行客户端校验，只依靠下面的校验，则为单纯的密码授权
         /// </summary>
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
         {
@@ -35,7 +38,7 @@ namespace MusicStoreRestByWebApi.AuthorizeProvider
                 context.TryGetFormCredentials(out clientId, out clientSecret);
             }
             //验证client是否存在
-            if (string.IsNullOrEmpty(clientId) || clientSecret != clientServce.FindClientSecret(clientId))
+            if (string.IsNullOrEmpty(clientId) || clientSecret != await clientServce.FindClientSecretAsync(clientId))
             {
                 context.SetError("invalid_client", "client is not valid");
                 return;
@@ -46,7 +49,8 @@ namespace MusicStoreRestByWebApi.AuthorizeProvider
 
         /// <summary>
         /// 授予资源所有者证书
-        /// 此方法主要作用：验证用户，通过校验
+        /// 此方法主要作用：验证用户，生成初始的access_token
+        /// 如果此方法不进行用户校验，只依靠上面方法的校验，即只是单纯的客户端授权
         /// </summary>
         public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
         {
@@ -63,7 +67,7 @@ namespace MusicStoreRestByWebApi.AuthorizeProvider
                 context.SetError("invalid_password", "password is not valid");
                 return;
             }
-            if (context.Password!=userService.FindUserPassword(context.UserName))
+            if (context.Password!=await userService.FindUserPasswordAsync(context.UserName))
             {
                 context.SetError("invalid_identity", "username or password is not valid");
                 return;

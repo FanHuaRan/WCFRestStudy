@@ -10,10 +10,10 @@ using System.Web.Http;
 namespace MusicStoreRestByWebApi.Controllers
 {
     //[RoutePrefix("api/Artists")]
+    [Authorize]
     public class ArtistsController : ApiController
     {
         private ArtistDao artistDao = new ArtistDao();
-        [Authorize]
         // GET api/artists
         [HttpGet]
         public IEnumerable<Artist> Get()

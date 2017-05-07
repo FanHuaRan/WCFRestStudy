@@ -66,6 +66,21 @@ namespace MusicStoreBIL.Services.Impl
                 }
             }
         }
+        public Task<string> FindClientSecretAsync(string clientId)
+        {
+           return Task<String>.Run(() =>
+            {
+                return FindClientSecret(clientId);
+            });
+        }
+
+        public Task<bool> SaveClientAsync(string clientId, string clientSecret)
+        {
+            return  Task<bool>.Run(() =>
+            {
+                return SaveClient(clientId, clientSecret);
+            });
+        }
         private XmlElement createClientElement(string clientId, string clientSecret,XmlDocument document)
         {
             var userElement = document.CreateElement("client");
@@ -83,5 +98,6 @@ namespace MusicStoreBIL.Services.Impl
             docMent.Load(xmlClientFileName);
             return docMent;
         }
+
     }
 }

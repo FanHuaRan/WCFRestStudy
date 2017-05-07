@@ -93,7 +93,29 @@ namespace MusicStoreBIL.Services.Impl
                 }
             }
         }
+        public Task<string> FindUserRoleAsync(string userName)
+        {
+            return Task<string>.Run(() =>
+            {
+                return FindUserRole(userName);
+            });
+        }
 
+        public Task<string> FindUserPasswordAsync(string userName)
+        {
+            return Task<string>.Run(() =>
+            {
+                return FindUserPassword(userName);
+            });
+        }
+
+        public Task<bool> SaveUserAsync(string userName, string password, string role)
+        {
+            return  Task<bool>.Run(() =>
+            {
+                return SaveUser(userName, password, role);
+            });
+        }
         private  XmlElement createUserElement(string userName, string password, string role, XmlDocument document)
         {
             var userElement = document.CreateElement("user");
@@ -114,5 +136,6 @@ namespace MusicStoreBIL.Services.Impl
             docMent.Load(userFileName);
             return docMent;
         }
+        
     }
 }
