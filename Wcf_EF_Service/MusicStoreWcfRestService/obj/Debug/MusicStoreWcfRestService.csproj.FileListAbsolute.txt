@@ -24,3 +24,10 @@ E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\log4net.dll
 E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\log4net.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\ServiceStack.Redis.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\ServiceStack.Interfaces.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\ServiceStack.Text.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\ServiceStack.Common.dll
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\ServiceStack.Redis.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\ServiceStack.Text.xml
+E:\Programing\c#\WCFRestStudy\Wcf_EF_Service\MusicStoreWcfRestService\bin\Debug\ServiceStack.Common.xml

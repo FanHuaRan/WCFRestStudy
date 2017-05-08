@@ -51,6 +51,18 @@
     <Reference Include="MusicStoreWcfRestContract">
       <HintPath>..\MusicStoreWcfRestContract\bin\Debug\MusicStoreWcfRestContract.dll</HintPath>
     </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\packages\ServiceStack.Common.4.5.8\lib\net45\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\packages\ServiceStack.Interfaces.4.5.8\lib\portable-wp80+sl5+net45+win8+wpa81+monotouch+monoandroid+xamarin.ios10\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\packages\ServiceStack.Redis.4.5.8\lib\net45\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\ServiceStack.Text.4.5.8\lib\net45\ServiceStack.Text.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
@@ -70,11 +82,15 @@
     <Compile Include="Daos\OrderDao.cs" />
     <Compile Include="Daos\OrderDetailDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ICreateTokenStrategy.cs" />
+    <Compile Include="Services\Impl\RedisTokenStoreServiceClass.cs" />
+    <Compile Include="Services\Impl\SimpleCreateTokenStrategy.cs" />
     <Compile Include="Services\Impl\WebApiXmlClientServiceClass.cs" />
     <Compile Include="Services\Impl\WebApiXmlUserServiceClass.cs" />
     <Compile Include="Services\Impl\XmlClientServiceClass.cs" />
     <Compile Include="Services\Impl\XmlUserServiceClass.cs" />
     <Compile Include="Services\IClientService.cs" />
+    <Compile Include="Services\ITokenStoreService.cs" />
     <Compile Include="Services\IUserService.cs" />
   </ItemGroup>
   <ItemGroup>

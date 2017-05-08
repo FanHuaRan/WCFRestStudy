@@ -55,6 +55,8 @@
     <Compile Include="DataContract\Artist.cs" />
     <Compile Include="DataContract\Employee.cs" />
     <Compile Include="DataContract\Genre.cs" />
+    <Compile Include="DataContract\OAuthEntity.cs" />
+    <Compile Include="DataContract\OAuthError.cs" />
     <Compile Include="DataContract\Order.cs" />
     <Compile Include="DataContract\OrderDetail.cs" />
     <Compile Include="EnableCacheServiceContract\IEmployeesService.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="ServiceContract\IWCFAlbumService.cs" />
     <Compile Include="ServiceContract\IWCFArtistService.cs" />
     <Compile Include="ServiceContract\IWCFGenreService.cs" />
+    <Compile Include="ServiceContract\IWCFOAuthService.cs" />
     <Compile Include="ServiceContract\IWCFOrderDetailService.cs" />
     <Compile Include="ServiceContract\IWCFOrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

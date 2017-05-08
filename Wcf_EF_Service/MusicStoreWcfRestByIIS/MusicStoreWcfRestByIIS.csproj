@@ -65,6 +65,18 @@
     <Reference Include="MusicStoreWcfRestService">
       <HintPath>..\MusicStoreWcfRestService\bin\Debug\MusicStoreWcfRestService.dll</HintPath>
     </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\packages\ServiceStack.Common.4.5.8\lib\net45\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\packages\ServiceStack.Interfaces.4.5.8\lib\portable-wp80+sl5+net45+win8+wpa81+monotouch+monoandroid+xamarin.ios10\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\packages\ServiceStack.Redis.4.5.8\lib\net45\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\ServiceStack.Text.4.5.8\lib\net45\ServiceStack.Text.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
@@ -99,6 +111,7 @@
     <Content Include="WCFArtistService.svc" />
     <Content Include="WCFGenreService.svc" />
     <Content Include="WCFOrderDetailService.svc" />
+    <Content Include="WCFOAuthService.svc" />
     <Content Include="WCFOrderService.svc" />
     <Content Include="EmployeesService.svc" />
     <Content Include="Web.config" />

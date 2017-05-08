@@ -76,6 +76,7 @@
     <Compile Include="EnableCache\WCFGenreService.cs" />
     <Compile Include="EnableCache\WCFOrderDetailService.cs" />
     <Compile Include="EnableCache\WCFOrderService.cs" />
+    <Compile Include="NoCache\WCFOAuthService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NoCache\WCFAlbumService.cs" />
     <Compile Include="NoCache\WCFArtistService.cs" />
