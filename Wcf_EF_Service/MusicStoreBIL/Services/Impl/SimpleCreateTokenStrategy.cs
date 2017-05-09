@@ -7,7 +7,8 @@ using System.Security.Cryptography;
 namespace MusicStoreBIL.Services.Impl
 {
     /// <summary>
-    /// 简易token生成策略 直接通过UUID进行MD5摘要而生成
+    /// 简易token生成策略 
+    /// 直接通过UUID进行MD5摘要,然后去掉-而生成
     /// 2017/05/08 fhr
     /// </summary>
     public class SimpleCreateTokenStrategy : ICreateTokenStrategy
@@ -28,7 +29,7 @@ namespace MusicStoreBIL.Services.Impl
             var guid = new Guid();
             var bytes = Encoding.Default.GetBytes(guid.ToString());
             var result = BitConverter.ToString(md5CryptoServiceProvider.ComputeHash(bytes));
-            return result;
+            return System.Text.RegularExpressions.Regex.Replace(result, "-", "");
         }
     }
 }

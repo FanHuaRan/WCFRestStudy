@@ -12,11 +12,18 @@ namespace MusicStoreBIL.Services
     /// </summary>
     public interface ITokenStoreService
     {
-        bool SaveUserName_OAuthEntity(string userNmae, OAuthEntity oauthEntity);
+
+        bool SaveUserName_OAuthEntity(string userName, OAuthEntity oauthEntity);
 
         bool SaveAccessToken(string accessToken, OAuthEntity oauthEntity);
 
         bool SaveRefreshToken(string refeshToken, OAuthEntity oauthEntity);
+
+        bool ReomveUserName_OAuthEntity(string userName);
+
+        bool ReomveAccessToken(string accessToken);
+
+        bool RemoveRefreshToken(string refeshToken);
 
         OAuthEntity FindOAuthEntityByUsername(string userName);
 

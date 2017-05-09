@@ -87,9 +87,7 @@
   <ItemGroup>
     <Content Include="README.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SecureAuth\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

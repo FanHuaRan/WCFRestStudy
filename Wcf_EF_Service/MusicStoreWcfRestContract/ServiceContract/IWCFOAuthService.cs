@@ -13,12 +13,14 @@ namespace MusicStoreWcfRestContract
     /// 2017/04/01 fhr
     /// </summary>
     [ServiceContract(Namespace = "www.ranran.MusicStoreWcfRest")]
+    [ServiceKnownType(typeof(OAuthEntity))]
+    [ServiceKnownType(typeof(OAuthError))]
     public interface IWCFOAuthService
     {
         [OperationContract]
-        [WebGet(UriTemplate = "oauth/token?grant_type={grant_type}&username={userName}&password={password}",
+        [WebGet(UriTemplate = "oauth/token?grant_type={grant_type}&username={userName}&password={password}&refesh_token={refreshToken}",
            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
         [Description("oauth授权 暂时只基于用户名和密码")]
-        object Token(string grant_type, string userName, string password);
+        OAuthBaseModel Token(string grant_type, string userName, string password, string refreshToken);
     }
 }

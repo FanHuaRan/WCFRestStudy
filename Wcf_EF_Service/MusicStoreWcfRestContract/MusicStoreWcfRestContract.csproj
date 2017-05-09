@@ -55,6 +55,7 @@
     <Compile Include="DataContract\Artist.cs" />
     <Compile Include="DataContract\Employee.cs" />
     <Compile Include="DataContract\Genre.cs" />
+    <Compile Include="DataContract\OAuthBaseModel.cs" />
     <Compile Include="DataContract\OAuthEntity.cs" />
     <Compile Include="DataContract\OAuthError.cs" />
     <Compile Include="DataContract\Order.cs" />

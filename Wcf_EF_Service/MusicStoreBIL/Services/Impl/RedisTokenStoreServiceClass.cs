@@ -10,21 +10,19 @@ namespace MusicStoreBIL.Services.Impl
 {
     /// <summary>
     /// Token存储服务的Redis实现
+    /// 有问题 在同一个容器中key-value存储有可能冲突 暂时不改了
+    /// 2017/05/09 fhr
     /// </summary>
     public class RedisTokenStoreServiceClass : ITokenStoreService
     {
         private static RedisClient redisClient = new RedisClient("101.200.55.205", 6379, "12345678");
-
-        public bool SaveUserName_OAuthEntity(string userNmae, OAuthEntity oauthEntity)
+        
+        public bool SaveUserName_OAuthEntity(string userName, OAuthEntity oauthEntity)
         {
             try
             {
-                if (redisClient.Add<OAuthEntity>(userNmae, oauthEntity, TimeSpan.FromHours(12)))
-                {
-                    return false;
-                }
-                redisClient.Save();
-                return true;
+                //12h
+                return redisClient.Set<OAuthEntity>(userName, oauthEntity, TimeSpan.FromHours(12));
             }
             catch (Exception e)
             {
@@ -36,12 +34,8 @@ namespace MusicStoreBIL.Services.Impl
         {
             try
             {
-                if (redisClient.Add<OAuthEntity>(accessToken, oauthEntity, TimeSpan.FromHours(12)))
-                {
-                    return false;
-                }
-                redisClient.Save();
-                return true;
+                //12h
+                return redisClient.Set<OAuthEntity>(accessToken, oauthEntity, TimeSpan.FromHours(12));
             }
             catch (Exception e)
             {
@@ -53,12 +47,7 @@ namespace MusicStoreBIL.Services.Impl
         {
             try
             {
-                if (redisClient.Add<OAuthEntity>(refeshToken, oauthEntity, TimeSpan.FromHours(12)))
-                {
-                    return false;
-                }
-                redisClient.Save();
-                return true;
+                return redisClient.Set<OAuthEntity>(refeshToken, oauthEntity);
             }
             catch (Exception e)
             {
@@ -80,6 +69,22 @@ namespace MusicStoreBIL.Services.Impl
         public OAuthEntity FindOAuthEntityByRefeshToken(string refeshToken)
         {
             return redisClient.Get<OAuthEntity>(refeshToken);
+        }
+
+
+        public bool ReomveUserName_OAuthEntity(string userName)
+        {
+           return redisClient.Remove(userName);
+        }
+
+        public bool ReomveAccessToken(string accessToken)
+        {
+            return redisClient.Remove(accessToken);
+        }
+
+        public bool RemoveRefreshToken(string refeshToken)
+        {
+            return redisClient.Remove(refeshToken);
         }
     }
 }

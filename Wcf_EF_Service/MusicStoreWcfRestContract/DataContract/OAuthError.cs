@@ -12,7 +12,7 @@ namespace MusicStoreWcfRestContract
     /// 2017/05/08 fhr
     /// </summary>
     [DataContract]
-    public class OAuthError
+    public class OAuthError : OAuthBaseModel
     {
         [DataMember(Name = "error")]
         public string Error { get; set; }
