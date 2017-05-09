@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace MusicStoreWcfRestContract
 {
+    /// <summary>
+    /// OAuth授权实体基类
+    /// </summary>
     [DataContract]
     public class OAuthBaseModel
     {
