@@ -70,6 +70,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWebAPIByWCFHost",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreWebAPIByOWINHost", "MusicStoreWebAPIByOWINHost\MusicStoreWebAPIByOWINHost.csproj", "{2500E6A6-0ECB-46A9-B6D8-2288A5F0158F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreRest_DI_Sample", "MusicStoreRest_DI_Sample\MusicStoreRest_DI_Sample.csproj", "{D522A36D-9746-4762-AC94-C9FC2F62EAF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -320,6 +322,16 @@ Global
 		{2500E6A6-0ECB-46A9-B6D8-2288A5F0158F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2500E6A6-0ECB-46A9-B6D8-2288A5F0158F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2500E6A6-0ECB-46A9-B6D8-2288A5F0158F}.Release|x86.ActiveCfg = Release|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -348,5 +360,6 @@ Global
 		{93521E34-90B3-4AA9-B841-78BBD2C7B829} = {FE489379-600B-435F-A458-ECEB009CC2F2}
 		{4F0ED519-6259-40F3-8A83-1C5C29F2F7C4} = {FE489379-600B-435F-A458-ECEB009CC2F2}
 		{2500E6A6-0ECB-46A9-B6D8-2288A5F0158F} = {FE489379-600B-435F-A458-ECEB009CC2F2}
+		{D522A36D-9746-4762-AC94-C9FC2F62EAF2} = {FE489379-600B-435F-A458-ECEB009CC2F2}
 	EndGlobalSection
 EndGlobal
